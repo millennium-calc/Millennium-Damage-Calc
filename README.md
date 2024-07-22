@@ -7,4 +7,5 @@ Credits and license
 MIT License.
 
 Written by Honko. VGC 2015 Update by Tapin and Firestorm. VGC 2016, 2017, 2018, 2019, and 2020 done by squirrelboyVGC. VGC 2021 onwards done by nerd-of-now.
+
 Forked and modified by VyaxUltima of the Mandala Guild for Millennium Emerald.
