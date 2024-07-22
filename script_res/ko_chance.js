@@ -132,7 +132,7 @@ function getKOChanceText(damage, move, defender, field, isBadDreams) {
             toxicCounter = defender.toxicCounter;
         }
     } else if (defender.status === 'Burned') {
-        var burnDmgDivider = (gen >= 7) ? 16 : 8;
+        var burnDmgDivider = 16; //just leaving this here so i don't have to deal with shit possibly breaking
         if (defender.ability === 'Heatproof') {
             eot -= Math.floor(Math.floor(defender.maxHP / burnDmgDivider / 2) * maxChip);
             eotText.push('reduced burn damage');
