@@ -7,7 +7,7 @@ function GET_DAMAGE_HANDLER(attacker, defender, move, field) {
             return CALCULATE_DAMAGE_RBY(attacker, defender, move, field);
         case 2:
             return CALCULATE_DAMAGE_GSC(attacker, defender, move, field);
-        case 3:
+        case 3:    
             return CALCULATE_DAMAGE_ADV(attacker, defender, move, field);
         case 4:
             return CALCULATE_DAMAGE_DPP(attacker, defender, move, field);
@@ -1830,6 +1830,11 @@ function calcDefense(move, attacker, defender, description, hitsPhysical, isCrit
         defense = pokeRound(defense * 3 / 2);
         description.weather = field.weather;
     }
+
+    if (move.name === "Explosion" || move.name === "Self-Destruct") {
+        defense = pokeRound(defense / 2); // in PME, boom moves still halve Def
+    }
+    
     return [defense, description];
 }
 
