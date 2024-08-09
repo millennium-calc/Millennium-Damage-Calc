@@ -132,13 +132,17 @@ function getKOChanceText(damage, move, defender, field, isBadDreams) {
             toxicCounter = defender.toxicCounter;
         }
     } else if (defender.status === 'Burned') {
-        var burnDmgDivider = 16; //just leaving this here so i don't have to deal with shit possibly breaking
         if (defender.ability === 'Heatproof') {
-            eot -= Math.floor(Math.floor(defender.maxHP / burnDmgDivider / 2) * maxChip);
+            eot -= Math.floor(Math.floor(defender.maxHP / 32) * maxChip);
             eotText.push('reduced burn damage');
         } else if (defender.ability !== 'Magic Guard') {
-            eot -= Math.floor(Math.floor(defender.maxHP / burnDmgDivider) * maxChip);
+            eot -= Math.floor(Math.floor(defender.maxHP / 16) * maxChip);
             eotText.push('burn damage');
+        }
+    } else if (defender.status === 'Frostbitten') {
+        if (defender.ability !== 'Magic Guard') {
+            eot -= Math.floor(Math.floor(defender.maxHP / 16) * maxChip);
+            eotText.push('frostbite damage');
         }
     } else if (defender.status === 'Asleep' && isBadDreams && defender.ability !== 'Magic Guard') {
         eot -= Math.floor(Math.floor(defender.maxHP / 8) * maxChip);

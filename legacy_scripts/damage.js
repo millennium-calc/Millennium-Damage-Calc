@@ -596,7 +596,7 @@ function GET_DAMAGE_SS(attacker, defender, move, field) {
         description.isHelpingHand = true;
     }
 
-    if ((move.name === "Facade" && ["Burned", "Paralyzed", "Poisoned", "Badly Poisoned"].indexOf(attacker.status) !== -1) ||
+    if ((move.name === "Facade" && ["Burned", "Paralyzed", "Poisoned", "Badly Poisoned", "Frostbitten"].indexOf(attacker.status) !== -1) ||
         (move.name === "Brine" && defender.curHP <= defender.maxHP / 2) ||
         (move.name === "Venoshock" && (defender.status === "Poisoned" || defender.status === "Badly Poisoned"))) {
         bpMods.push(0x2000);

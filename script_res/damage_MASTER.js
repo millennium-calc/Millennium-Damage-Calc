@@ -52,6 +52,9 @@ function buildDescription(description) {
     if (description.isBurned) {
         output += "burned ";
     }
+    if (description.isFrostbitten) {
+        output += "frostbitten ";
+    }
     output += description.attackerName + " ";
     if (description.isHelpingHand) {
         output += "Helping Hand ";
@@ -1294,7 +1297,7 @@ function basePowerFunc(move, description, turnOrder, attacker, defender, field, 
             break;
         //g.xii. Facade (Gens 3-4)
         case "Facade":
-            if (gen <= 4 && ["Burned", "Paralyzed", "Poisoned", "Badly Poisoned"].indexOf(attacker.status) !== -1) {
+            if (gen <= 4 && ["Burned", "Paralyzed", "Poisoned", "Badly Poisoned", "Frostbitten"].indexOf(attacker.status) !== -1) {
                 basePower = move.bp * 2;
                 description.moveBP = basePower;
             }
@@ -1558,7 +1561,7 @@ function calcBPMods(attacker, defender, field, move, description, ateIzeBoosted,
     }
 
     //u. Double power (Facade, Brine, Venoshock, Retaliate, Fusion Bolt, Fusion Flare, Lash Out)
-    if ((move.name === "Facade" && ["Burned", "Paralyzed", "Poisoned", "Badly Poisoned"].indexOf(attacker.status) !== -1) ||
+    if ((move.name === "Facade" && ["Burned", "Paralyzed", "Poisoned", "Badly Poisoned", "Frostbitten"].indexOf(attacker.status) !== -1) ||
         (move.name === "Brine" && defender.curHP <= defender.maxHP / 2) ||
         (["Venoshock", "Barb Barrage"].indexOf(move.name) !== -1 && (defender.status === "Poisoned" || defender.status === "Badly Poisoned")) ||
         (['Retaliate', 'Fusion Bolt', 'Fusion Flare', 'Lash Out'].indexOf(move.name) !== -1 && move.isDouble)) {
@@ -1984,6 +1987,8 @@ function calcGeneralMods(baseDamage, move, attacker, defender, defAbility, field
     }
     var applyBurn = (attacker.status === "Burned" && move.category === "Physical" && attacker.ability !== "Guts" && !move.ignoresBurn);
     description.isBurned = applyBurn;
+    var applyFrostbite = (attacker.status === "Frostbitten" && move.category === "Special" && attacker.ability !== "Guts" && !move.ignoresBurn);
+    description.isFrostbitten = applyFrostbite;
     var finalMod;
     [finalMod, description] = calcFinalMods(move, attacker, defender, field, description, isCritical, typeEffectiveness, defAbility, hitsPhysical);
     finalMods = chainMods(finalMod);
@@ -2030,8 +2035,8 @@ function calcGeneralMods(baseDamage, move, attacker, defender, defAbility, field
         damage[i] = pokeRound(damage[i] * stabMod / 0x1000);
         //g. Type Effect mod
         damage[i] = Math.floor(damage[i] * typeEffectiveness);
-        //h. Burn mod
-        if (applyBurn) {
+        //h. Burn mod and Frostbite mod
+        if (applyBurn || applyFrostbite) {
             damage[i] = Math.floor(damage[i] / 2);
         }
         //i. Final mods
