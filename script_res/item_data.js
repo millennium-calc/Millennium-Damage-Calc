@@ -159,110 +159,21 @@ var ITEMS_DPP = ITEMS_ADV.concat([
 ]);
 
 var ITEMS_GEMS = [
-    'Bug Gem',
-    'Dark Gem',
-    'Dragon Gem',
-    'Electric Gem',
-    'Fighting Gem',
-    'Fire Gem',
-    'Flying Gem',
-    'Ghost Gem',
-    'Grass Gem',
-    'Ground Gem',
-    'Ice Gem',
-    'Poison Gem',
-    'Psychic Gem',
-    'Rock Gem',
-    'Steel Gem',
-    'Water Gem',
+    
 ];
 
 var ITEMS_BW_NO_GEMS = ITEMS_DPP.concat([
-    'Air Balloon',
-    'Eviolite',
-    //GENESECT DRIVES
-    'Burn Drive',
-    'Chill Drive',
-    'Douse Drive',
-    'Shock Drive',
-    //NO FUNCT
-    'Absorb Bulb',
-    'Binding Band',
-    'Eject Button',
-    'Float Stone',  //is actually implemented
-    'Red Card',
-    'Ring Target',  //is actually implemented
-    'Rocky Helmet',
-    'Normal Gem',
-    'Big Nugget', //pretty much only here because of Fling 130 BP Gen 8+
+    
 ]);
 
 var ITEMS_BW = ITEMS_BW_NO_GEMS.concat(ITEMS_GEMS);
 
 var ITEMS_MEGA_STONES = [
-    //MEGA STONES
-    'Abomasite',
-    'Absolite',
-    'Aerodactylite',
-    'Aggronite',
-    'Alakazite',
-    'Ampharosite',
-    'Banettite',
-    'Blastoisinite',
-    'Blazikenite',
-    'Charizardite X',
-    'Charizardite Y',
-    'Garchompite',
-    'Gardevoirite',
-    'Gengarite',
-    'Gyaradosite',
-    'Heracronite',
-    'Houndoominite',
-    'Kangaskhanite',
-    'Latiasite',
-    'Latiosite',
-    'Lucarionite',
-    'Manectite',
-    'Mawilite',
-    'Medichamite',
-    'Mewtwonite X',
-    'Mewtwonite Y',
-    'Pinsirite',
-    'Scizorite',
-    'Tyranitarite',
-    'Venusaurite',
-    'Altarianite',
-    'Audinite',
-    'Beedrillite',
-    'Cameruptite',
-    'Diancite',
-    'Galladite',
-    'Glalitite',
-    'Lopunnite',
-    'Metagrossite',
-    'Pidgeotite',
-    'Sablenite',
-    'Salamencite',
-    'Sceptilite',
-    'Sharpedonite',
-    'Slowbronite',
-    'Steelixite',
-    'Swampertite',
-    'Red Orb',
-    'Blue Orb',
+    
 ];
 
 var ITEMS_XY_NO_MEGA = ITEMS_BW_NO_GEMS.concat([
-    'Assault Vest',
-    'Kee Berry',
-    'Maranga Berry',
-    'Pixie Plate',
-    'Roseli Berry',
-    'Safety Goggles',
-    //NO FUNCT
-    'Luminous Moss',
-    'Snowball',
-    'Weakness Policy',
+    
 ]);
 
 ITEMS_XY_NO_MEGA.splice(ITEMS_XY_NO_MEGA.indexOf('BlackGlasses'), 1, 'Black Glasses');
@@ -275,106 +186,24 @@ ITEMS_XY_NO_MEGA.splice(ITEMS_XY_NO_MEGA.indexOf('TwistedSpoon'), 1, 'Twisted Sp
 var ITEMS_XY = ITEMS_XY_NO_MEGA.concat(ITEMS_MEGA_STONES);
 
 var ITEMS_Z_AND_MEGA = ITEMS_MEGA_STONES.concat([
-    //Z-CRYSTALS
-    'Buginium Z',
-    'Darkinium Z',
-    'Dragonium Z',
-    'Electrium Z',
-    'Fairium Z',
-    'Fightinium Z',
-    'Firium Z',
-    'Flyinium Z',
-    'Ghostium Z',
-    'Grassium Z',
-    'Groundium Z',
-    'Icium Z',
-    'Normalium Z',
-    'Poisonium Z',
-    'Psychium Z',
-    'Rockium Z',
-    'Steelium Z',
-    'Waterium Z',
-    'Aloraichium Z',
-    'Decidium Z',
-    'Eevium Z',
-    'Incinium Z',
-    'Marshadium Z',
-    'Mewnium Z',
-    'Pikanium Z',
-    'Pikashunium Z',
-    'Primarium Z',
-    'Snorlium Z',
-    'Tapunium Z',
-    'Kommonium Z',
-    'Lunalium Z',
-    'Lycanium Z',
-    'Mimikium Z',
-    'Solganium Z',
-    'Ultranecrozium Z',
+    
 ]);
 
 var ITEMS_SM_NO_Z_MEGA = ITEMS_XY_NO_MEGA.concat([
-    'Psychic Seed',
-    'Misty Seed',
-    'Electric Seed',
-    'Grassy Seed',
-    //SILVALLY MEMORIES
-    'Bug Memory',
-    'Dark Memory',
-    'Dragon Memory',
-    'Electric Memory',
-    'Fairy Memory',
-    'Fighting Memory',
-    'Fire Memory',
-    'Flying Memory',
-    'Ghost Memory',
-    'Grass Memory',
-    'Ground Memory',
-    'Ice Memory',
-    'Poison Memory',
-    'Psychic Memory',
-    'Rock Memory',
-    'Steel Memory',
-    'Water Memory',
-    //NO FUNCT
-    'Adrenaline Orb',   //sike it's implemented
-    'Protective Pads',  //this too
-    'Terrain Extender',
+    
 ]);
 
 var ITEMS_SM = ITEMS_SM_NO_Z_MEGA.concat(ITEMS_Z_AND_MEGA);
 
 var NEW_ITEMS_SS = [
-    'Utility Umbrella',
-    //NO FUNCT
-    'Blunder Policy',
-    'Eject Pack',
-    'Heavy-Duty Boots',
-    'Room Service',
-    'Throat Spray',
-    'Rusted Sword',
-    'Rusted Shield',
-    'Leek',
+    
 ];
 
 var ITEMS_SS = ITEMS_SM_NO_Z_MEGA.concat(NEW_ITEMS_SS);
 ITEMS_SS.splice(ITEMS_SS.indexOf('Stick'), 1);
 
 var NEW_ITEMS_SV = [
-    'Mirror Herb',  //copies stat boosts from last stat boosting move from opponent, no calc functionality
-    'Covert Cloak', //item Shield Dust, no calc functionality
-    'Loaded Dice',  //increases chances of hitting more times with multi hit moves
-    'Ability Shield',   //prevents other mons from changing ability
-    'Booster Energy',   //activates paradox mon abilities without sun/electric terrain
-    'Clear Amulet', //item Clear Body
-    'Punching Glove',   //item Iron Fist, no contact, probably stacks with Iron Fist
-    'Adamant Crystal',  //Origin Dialga item, also acts like Adamant Orb
-    'Lustrous Globe',   //Origin Palkia item, also acts like Lustrous Orb
-    'Griseous Core',    //Origin Giratina item, also acts like Griseous Orb
-    'Fairy Feather',    //Non-Plate equivalent of Pixie Plate
-    'Hearthflame Mask',     //Fire Ogerpon, Atk Embody Aspect
-    'Wellspring Mask',      //Water Ogerpon, SpD Embody Aspect
-    'Cornerstone Mask',     //Rock Ogerpon, Def Embody Aspect
+    
 ];
 
 var ITEMS_SV = ITEMS_SS.concat(NEW_ITEMS_SV);

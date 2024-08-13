@@ -188,11 +188,7 @@ function chainMods(mods) {
 }
 
 function addLevelDesc(attacker, defender, description) {
-    autoLevel = $('#douswitch').is(':checked') ? 50 : 100;
-    if (attacker.level !== autoLevel)
-        description.attackerLevel = attacker.level;
-    if (defender.level !== autoLevel)
-        description.defenderLevel = defender.level;
+    autoLevel = 100;
 }
 
 function getMoveEffectiveness(move, type, otherType, description, isForesight, isScrappy, isGravity, defItem, isStrongWinds, isTeraShell, defIsTera) {
@@ -2164,9 +2160,13 @@ function calcFinalMods(move, attacker, defender, field, description, isCritical,
         finalMods.push(0xC00);
         description.isFriendGuard = true;
     }
-    //l. Solid Rock, Filter, Prism Armor
+    //l. Solid Rock, Filter, Prism Armor, Creator's Ward
     if ((defAbility === "Solid Rock" || defAbility === "Filter" || defAbility === "Prism Armor") && typeEffectiveness > 1) {
         finalMods.push(0xC00);
+        description.defenderAbility = defAbility;
+    }
+    if (defAbility === "Creator's Ward") {
+        finalMods.push(0xCCD);
         description.defenderAbility = defAbility;
     }
     //m. Metronome item

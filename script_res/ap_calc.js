@@ -829,7 +829,6 @@ function getOppMoves(pokID, moveGroupObj) {
 $(".set-selector").change(function() {
     var fullSetName = $(this).val();
     var pokemonName, setName;
-    var DOU = !$('#douswitch').is(":checked");
     pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
     if (pokemonName === 'Spamton')
         run_spamton();
@@ -873,18 +872,7 @@ $(".set-selector").change(function() {
                 $(this).closest(".poke-info").find(".setCalc").val("My Calc Set");
                 $(this).closest(".poke-info").find(".delset").hide();
             }
-            if (DOU) {
-                if (set.level && set.level != 50)
-                    pokeObj.find(".level").val(set.level);
-                else
-                    pokeObj.find(".level").val(100);
-            }
-            else {
-                if (gen <= 6 && set.level && set.level < 50)
-                    pokeObj.find(".level").val(set.level);
-                else
-                    pokeObj.find(".level").val(50);
-            }
+            pokeObj.find(".level").val(set.level); //always pull the level of the set
             pokeObj.find(".hp .evs").val((set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0);
             pokeObj.find(".hp .ivs").val((set.ivs && typeof set.ivs.hp !== "undefined") ? set.ivs.hp : 31);
             pokeObj.find(".hp .dvs").val((set.dvs && typeof set.dvs.hp !== "undefined") ? set.dvs.hp : 15);
@@ -906,8 +894,7 @@ $(".set-selector").change(function() {
             else
                 pokeObj.find(".tera-type").val(pokemon.t1);
         } else {
-            if(DOU) pokeObj.find(".level").val(100);
-            else pokeObj.find(".level").val(50);
+            pokeObj.find(".level").val(50); //default to level 50
             pokeObj.find(".hp .evs").val(0);
             pokeObj.find(".hp .ivs").val(31);
             pokeObj.find(".hp .dvs").val(15);
