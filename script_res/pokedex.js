@@ -46,12 +46,12 @@ var POKEDEX_RBY = {
     "Arbok": {
         "t1": "Poison",
         "bs": {
-            "hp": 60,
-            "at": 85,
+            "hp": 70,
+            "at": 115,
             "df": 69,
             "sa": 65,
             "sd": 79,
-            "sp": 80,
+            "sp": 92,
             "sl": 65
         },
         "w": 65.0,
@@ -90,16 +90,16 @@ var POKEDEX_RBY = {
         "t1": "Bug",
         "t2": "Poison",
         "bs": {
-            "hp": 65,
-            "at": 80,
+            "hp": 70,
+            "at": 90,
             "df": 40,
             "sa": 45,
             "sd": 80,
-            "sp": 75,
+            "sp": 85,
             "sl": 45
         },
         "w": 29.5,
-        "ab": "Swarm"
+        "ab": "Adaptability"
     },
     "Bellsprout": {
         "t1": "Grass",
@@ -120,12 +120,12 @@ var POKEDEX_RBY = {
     "Blastoise": {
         "t1": "Water",
         "bs": {
-            "hp": 79,
-            "at": 83,
+            "hp": 89,
+            "at": 68,
             "df": 100,
-            "sa": 85,
+            "sa": 100,
             "sd": 105,
-            "sp": 78,
+            "sp": 73,
             "sl": 85
         },
         "w": 85.5,
@@ -243,7 +243,7 @@ var POKEDEX_RBY = {
             "hp": 95,
             "at": 70,
             "df": 73,
-            "sa": 85,
+            "sa": 95,
             "sd": 90,
             "sp": 60,
             "sl": 85
@@ -272,9 +272,9 @@ var POKEDEX_RBY = {
         "bs": {
             "hp": 50,
             "at": 95,
-            "df": 180,
+            "df": 165,
             "sa": 85,
-            "sd": 45,
+            "sd": 60,
             "sp": 70,
             "sl": 85
         },
@@ -293,7 +293,7 @@ var POKEDEX_RBY = {
             "sl": 40
         },
         "w": 6.5,
-        "ab": "Lightning Rod",
+        "ab": "Rock Head",
         "canEvolve": true,
     },
     "Dewgong": {
@@ -353,7 +353,7 @@ var POKEDEX_RBY = {
             "sl": 60
         },
         "w": 85.2,
-        "ab": "Early Bird",
+        "ab": "Limber",
     },
     "Doduo": {
         "t1": "Normal",
@@ -368,7 +368,7 @@ var POKEDEX_RBY = {
             "sl": 35
         },
         "w": 39.2,
-        "ab": "Early Bird",
+        "ab": "Limber",
         "canEvolve": true,
     },
     "Dragonair": {
@@ -457,18 +457,18 @@ var POKEDEX_RBY = {
             "sl": 65
         },
         "w": 6.5,
-        "ab": "Run Away",
+        "ab": "Scrappy",
         "canEvolve": true,
     },
     "Ekans": {
         "t1": "Poison",
         "bs": {
             "hp": 35,
-            "at": 60,
+            "at": 70,
             "df": 44,
             "sa": 40,
             "sd": 54,
-            "sp": 55,
+            "sp": 65,
             "sl": 40
         },
         "w": 6.9,
@@ -623,7 +623,7 @@ var POKEDEX_RBY = {
             "sl": 30
         },
         "w": 20.0,
-        "ab": "Rock Head",
+        "ab": "Rough Skin",
         "canEvolve": true,
     },
     "Gloom": {
@@ -679,7 +679,7 @@ var POKEDEX_RBY = {
             "hp": 80,
             "at": 82,
             "df": 78,
-            "sa": 95,
+            "sa": 110,
             "sd": 80,
             "sp": 85,
             "sl": 80
@@ -693,14 +693,14 @@ var POKEDEX_RBY = {
         "bs": {
             "hp": 80,
             "at": 110,
-            "df": 130,
+            "df": 120,
             "sa": 55,
-            "sd": 65,
+            "sd": 75,
             "sp": 45,
             "sl": 55
         },
         "w": 300.0,
-        "ab": "Rock Head",
+        "ab": "Rough Skin",
     },
     "Graveler": {
         "t1": "Rock",
@@ -715,7 +715,7 @@ var POKEDEX_RBY = {
             "sl": 45
         },
         "w": 105.0,
-        "ab": "Rock Head",
+        "ab": "Rough Skin",
         "canEvolve": true,
     },
     "Grimer": {
@@ -782,7 +782,7 @@ var POKEDEX_RBY = {
     "Hitmonchan": {
         "t1": "Fighting",
         "bs": {
-            "hp": 50,
+            "hp": 65,
             "at": 105,
             "df": 79,
             "sa": 35,
@@ -791,21 +791,21 @@ var POKEDEX_RBY = {
             "sl": 35
         },
         "w": 50.2,
-        "ab": "Keen Eye",
+        "ab": "Iron Fist",
     },
     "Hitmonlee": {
         "t1": "Fighting",
         "bs": {
-            "hp": 50,
+            "hp": 60,
             "at": 120,
             "df": 53,
             "sa": 35,
             "sd": 110,
-            "sp": 87,
+            "sp": 92,
             "sl": 35
         },
         "w": 49.8,
-        "ab": "Limber",
+        "ab": "Reckless",
     },
     "Horsea": {
         "t1": "Water",
@@ -961,8 +961,8 @@ var POKEDEX_RBY = {
     "Kangaskhan": {
         "t1": "Normal",
         "bs": {
-            "hp": 105,
-            "at": 95,
+            "hp": 110,
+            "at": 100,
             "df": 80,
             "sa": 40,
             "sd": 80,
@@ -970,7 +970,7 @@ var POKEDEX_RBY = {
             "sl": 40
         },
         "w": 80.0,
-        "ab": "Early Bird",
+        "ab": "Unaware",
     },
     "Kingler": {
         "t1": "Water",
@@ -1132,7 +1132,7 @@ var POKEDEX_RBY = {
             "sl": 95
         },
         "w": 6.0,
-        "ab": "Magnet Pull",
+        "ab": "Sturdy",
         "canEvolve": true,
     },
     "Magneton": {
@@ -1147,7 +1147,7 @@ var POKEDEX_RBY = {
             "sl": 120
         },
         "w": 60.0,
-        "ab": "Magnet Pull",
+        "ab": "Sturdy",
         "canEvolve": true,
     },
     "Mankey": {
@@ -1177,7 +1177,7 @@ var POKEDEX_RBY = {
             "sl": 50
         },
         "w": 45.0,
-        "ab": "Lightning Rod",
+        "ab": "Rock Head",
     },
     "Meowth": {
         "t1": "Normal",
@@ -1285,22 +1285,22 @@ var POKEDEX_RBY = {
         "t2": "Ground",
         "bs": {
             "hp": 81,
-            "at": 92,
+            "at": 102,
             "df": 77,
             "sa": 85,
             "sd": 75,
-            "sp": 85,
+            "sp": 95,
             "sl": 75
         },
         "w": 62.0,
-        "ab": "Poison Point",
+        "ab": "Rivalry",
     },
     "Nidoqueen": {
         "t1": "Poison",
         "t2": "Ground",
         "bs": {
-            "hp": 90,
-            "at": 82,
+            "hp": 100,
+            "at": 92,
             "df": 87,
             "sa": 75,
             "sd": 85,
@@ -1308,7 +1308,7 @@ var POKEDEX_RBY = {
             "sl": 75
         },
         "w": 60.0,
-        "ab": "Poison Point",
+        "ab": "Rivalry",
     },
     "Nidoran-F": {
         "t1": "Poison",
@@ -1322,7 +1322,7 @@ var POKEDEX_RBY = {
             "sl": 40
         },
         "w": 7.0,
-        "ab": "Poison Point",
+        "ab": "Rivalry",
         "canEvolve": true,
     },
     "Nidoran-M": {
@@ -1337,7 +1337,7 @@ var POKEDEX_RBY = {
             "sl": 40
         },
         "w": 9.0,
-        "ab": "Poison Point",
+        "ab": "Rivalry",
         "canEvolve": true,
     },
     "Nidorina": {
@@ -1352,7 +1352,7 @@ var POKEDEX_RBY = {
             "sl": 55
         },
         "w": 20.0,
-        "ab": "Poison Point",
+        "ab": "Rivalry",
         "canEvolve": true,
     },
     "Nidorino": {
@@ -1367,7 +1367,7 @@ var POKEDEX_RBY = {
             "sl": 55
         },
         "w": 19.5,
-        "ab": "Poison Point",
+        "ab": "Rivalry",
         "canEvolve": true,
     },
     "Ninetales": {
@@ -1376,7 +1376,7 @@ var POKEDEX_RBY = {
             "hp": 73,
             "at": 76,
             "df": 75,
-            "sa": 81,
+            "sa": 111,
             "sd": 100,
             "sp": 100,
             "sl": 100
@@ -1435,16 +1435,16 @@ var POKEDEX_RBY = {
         "t1": "Rock",
         "t2": "Ground",
         "bs": {
-            "hp": 35,
-            "at": 45,
+            "hp": 70,
+            "at": 85,
             "df": 160,
             "sa": 30,
-            "sd": 45,
-            "sp": 70,
+            "sd": 75,
+            "sp": 90,
             "sl": 30
         },
         "w": 210.0,
-        "ab": "Rock Head",
+        "ab": "Solid Rock",
         "canEvolve": true,
     },
     "Paras": {
@@ -1482,15 +1482,15 @@ var POKEDEX_RBY = {
         "t1": "Normal",
         "bs": {
             "hp": 65,
-            "at": 70,
+            "at": 80,
             "df": 60,
-            "sa": 65,
+            "sa": 80,
             "sd": 65,
             "sp": 115,
             "sl": 65
         },
         "w": 32.0,
-        "ab": "Limber",
+        "ab": "Technician",
     },
     "Pidgeot": {
         "t1": "Normal",
@@ -1500,12 +1500,12 @@ var POKEDEX_RBY = {
             "at": 80,
             "df": 75,
             "sa": 70,
-            "sd": 70,
-            "sp": 91,
+            "sd": 80,
+            "sp": 101,
             "sl": 70
         },
         "w": 39.5,
-        "ab": "Keen Eye",
+        "ab": "Reckless",
     },
     "Pidgeotto": {
         "t1": "Normal",
@@ -1520,7 +1520,7 @@ var POKEDEX_RBY = {
             "sl": 50
         },
         "w": 30.0,
-        "ab": "Keen Eye",
+        "ab": "Reckless",
         "canEvolve": true,
     },
     "Pidgey": {
@@ -1536,7 +1536,7 @@ var POKEDEX_RBY = {
             "sl": 35
         },
         "w": 1.8,
-        "ab": "Keen Eye",
+        "ab": "Reckless",
         "canEvolve": true,
     },
     "Pikachu": {
@@ -1625,7 +1625,7 @@ var POKEDEX_RBY = {
             "sl": 65
         },
         "w": 30.0,
-        "ab": "Flash Fire",
+        "ab": "Limber",
         "canEvolve": true,
     },
     "Porygon": {
@@ -1640,13 +1640,13 @@ var POKEDEX_RBY = {
             "sl": 75
         },
         "w": 36.5,
-        "ab": "Trace",
+        "ab": "Adaptability",
         "canEvolve": true,
     },
     "Primeape": {
         "t1": "Fighting",
         "bs": {
-            "hp": 65,
+            "hp": 75,
             "at": 105,
             "df": 60,
             "sa": 60,
@@ -1692,13 +1692,13 @@ var POKEDEX_RBY = {
             "hp": 65,
             "at": 100,
             "df": 70,
-            "sa": 80,
+            "sa": 90,
             "sd": 80,
             "sp": 105,
             "sl": 80
         },
         "w": 95.0,
-        "ab": "Flash Fire",
+        "ab": "Limber",
     },
     "Raticate": {
         "t1": "Normal",
@@ -1742,7 +1742,7 @@ var POKEDEX_RBY = {
             "sl": 45
         },
         "w": 120.0,
-        "ab": "Lightning Rod",
+        "ab": "Solid Rock",
         "canEvolve": true,
     },
     "Rhyhorn": {
@@ -1758,7 +1758,7 @@ var POKEDEX_RBY = {
             "sl": 30
         },
         "w": 115.0,
-        "ab": "Lightning Rod",
+        "ab": "Solid Rock",
         "canEvolve": true,
     },
     "Sandshrew": {
@@ -1781,14 +1781,14 @@ var POKEDEX_RBY = {
         "bs": {
             "hp": 75,
             "at": 100,
-            "df": 110,
+            "df": 120,
             "sa": 45,
             "sd": 55,
             "sp": 65,
             "sl": 55
         },
         "w": 29.5,
-        "ab": "Sand Veil"
+        "ab": "Battle Armor"
     },
     "Scyther": {
         "t1": "Bug",
@@ -1818,7 +1818,7 @@ var POKEDEX_RBY = {
             "sl": 95
         },
         "w": 25.0,
-        "ab": "Poison Point",
+        "ab": "Swift Swim",
         "canEvolve": true,
     },
     "Seaking": {
@@ -1930,9 +1930,9 @@ var POKEDEX_RBY = {
         "t1": "Water",
         "bs": {
             "hp": 44,
-            "at": 48,
+            "at": 43,
             "df": 65,
-            "sa": 50,
+            "sa": 55,
             "sd": 64,
             "sp": 43,
             "sl": 50
@@ -2097,7 +2097,7 @@ var POKEDEX_RBY = {
         "bs": {
             "hp": 80,
             "at": 105,
-            "df": 65,
+            "df": 70,
             "sa": 100,
             "sd": 60,
             "sp": 70,
@@ -2110,7 +2110,7 @@ var POKEDEX_RBY = {
         "t1": "Grass",
         "t2": "Poison",
         "bs": {
-            "hp": 75,
+            "hp": 85,
             "at": 80,
             "df": 85,
             "sa": 100,
@@ -2155,9 +2155,9 @@ var POKEDEX_RBY = {
         "t1": "Water",
         "bs": {
             "hp": 59,
-            "at": 63,
+            "at": 58,
             "df": 80,
-            "sa": 65,
+            "sa": 70,
             "sd": 80,
             "sp": 58,
             "sl": 65
@@ -2204,7 +2204,7 @@ var POKEDEX_RBY = {
             "hp": 65,
             "at": 90,
             "df": 120,
-            "sa": 85,
+            "sa": 100,
             "sd": 70,
             "sp": 60,
             "sl": 85
@@ -2321,12 +2321,12 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     "Bayleef": {
         "t1": "Grass",
         "bs": {
-            "hp": 60,
-            "at": 62,
+            "hp": 65,
+            "at": 75,
             "df": 80,
             "sa": 63,
             "sd": 80,
-            "sp": 60
+            "sp": 48
         },
         "w": 15.8,
         "ab": "Overgrow",
@@ -2336,11 +2336,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
         "t1": "Grass",
         "bs": {
             "hp": 75,
-            "at": 80,
-            "df": 85,
+            "at": 90,
+            "df": 90,
             "sa": 90,
-            "sd": 100,
-            "sp": 50
+            "sd": 95,
+            "sp": 60
         },
         "w": 5.8,
         "ab": "Chlorophyll"
@@ -2375,12 +2375,12 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     "Chikorita": {
         "t1": "Grass",
         "bs": {
-            "hp": 45,
+            "hp": 55,
             "at": 49,
             "df": 65,
             "sa": 49,
             "sd": 65,
-            "sp": 45
+            "sp": 35
         },
         "w": 6.4,
         "ab": "Overgrow",
@@ -2536,7 +2536,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "sp": 100
         },
         "w": 198.0,
-        "ab": "Pressure",
+        "ab": "Inner Focus",
     },
     "Espeon": {
         "t1": "Psychic",
@@ -2597,10 +2597,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
         "bs": {
             "hp": 85,
             "at": 76,
-            "df": 64,
+            "df": 69,
             "sa": 45,
-            "sd": 55,
-            "sp": 90
+            "sd": 60,
+            "sp": 95
         },
         "w": 32.5,
         "ab": "Keen Eye",
@@ -2664,9 +2664,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     "Hitmontop": {
         "t1": "Fighting",
         "bs": {
-            "hp": 50,
+            "hp": 60,
             "at": 95,
-            "df": 95,
+            "df": 100,
             "sa": 35,
             "sd": 110,
             "sp": 70
@@ -2796,7 +2796,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "hp": 125,
             "at": 58,
             "df": 58,
-            "sa": 76,
+            "sa": 96,
             "sd": 76,
             "sp": 67
         },
@@ -2822,15 +2822,15 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
         "t1": "Bug",
         "t2": "Flying",
         "bs": {
-            "hp": 55,
-            "at": 35,
+            "hp": 65,
+            "at": 75,
             "df": 50,
             "sa": 55,
-            "sd": 110,
+            "sd": 100,
             "sp": 85
         },
         "w": 35.6,
-        "ab": "Early Bird",
+        "ab": "Technician",
     },
     "Ledyba": {
         "t1": "Bug",
@@ -2934,12 +2934,12 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     "Meganium": {
         "t1": "Grass",
         "bs": {
-            "hp": 80,
-            "at": 82,
+            "hp": 100,
+            "at": 87,
             "df": 100,
             "sa": 83,
-            "sd": 100,
-            "sp": 80
+            "sd": 115,
+            "sp": 50
         },
         "w": 100.5,
         "ab": "Overgrow"
@@ -3063,7 +3063,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "hp": 100,
             "at": 100,
             "df": 80,
-            "sa": 60,
+            "sa": 70,
             "sd": 60,
             "sp": 50
         },
@@ -3109,7 +3109,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "sp": 60
         },
         "w": 32.5,
-        "ab": "Trace",
+        "ab": "Adaptability",
         "canEvolve": true,
     },
     "Pupitar": {
@@ -3134,7 +3134,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "hp": 95,
             "at": 85,
             "df": 85,
-            "sa": 65,
+            "sa": 80,
             "sd": 65,
             "sp": 35
         },
@@ -3159,11 +3159,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
         "t1": "Water",
         "t2": "Poison",
         "bs": {
-            "hp": 65,
-            "at": 95,
+            "hp": 75,
+            "at": 105,
             "df": 75,
             "sa": 55,
-            "sd": 55,
+            "sd": 75,
             "sp": 85
         },
         "w": 3.9,
@@ -3180,7 +3180,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "sp": 115
         },
         "w": 178.0,
-        "ab": "Pressure",
+        "ab": "Inner Focus",
     },
     "Remoraid": {
         "t1": "Water",
@@ -3392,7 +3392,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "sp": 30
         },
         "w": 400.0,
-        "ab": "Sturdy",
+        "ab": "Heatproof",
     },
     "Sudowoodo": {
         "t1": "Rock",
@@ -3418,7 +3418,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "sp": 85
         },
         "w": 187.0,
-        "ab": "Pressure",
+        "ab": "Inner Focus",
     },
     "Sunflora": {
         "t1": "Grass",
@@ -3550,11 +3550,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
         "t1": "Fighting",
         "bs": {
             "hp": 35,
-            "at": 35,
+            "at": 55,
             "df": 35,
             "sa": 35,
             "sd": 35,
-            "sp": 35
+            "sp": 55
         },
         "w": 21.0,
         "ab": "Guts",
@@ -3592,9 +3592,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "hp": 90,
             "at": 130,
             "df": 75,
-            "sa": 75,
-            "sd": 75,
-            "sp": 55
+            "sa": 55,
+            "sd": 85,
+            "sp": 65
         },
         "w": 125.8,
         "ab": "Guts"
@@ -3634,7 +3634,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
             "hp": 65,
             "at": 75,
             "df": 70,
-            "sa": 95,
+            "sa": 105,
             "sd": 70,
             "sp": 95
         },
@@ -3671,7 +3671,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 75
         },
         "w": 47.0,
-        "ab": "Pressure",
+        "ab": "Sniper",
     },
     "Aggron": {
         "t1": "Steel",
@@ -3778,9 +3778,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t2": "Psychic",
         "bs": {
             "hp": 40,
-            "at": 40,
+            "at": 50,
             "df": 55,
-            "sa": 40,
+            "sa": 50,
             "sd": 70,
             "sp": 55
         },
@@ -3794,7 +3794,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "hp": 64,
             "at": 115,
             "df": 65,
-            "sa": 83,
+            "sa": 93,
             "sd": 63,
             "sp": 65
         },
@@ -3884,7 +3884,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 35
         },
         "w": 51.3,
-        "ab": "Sand Veil",
+        "ab": "Dry Skin",
         "canEvolve": true,
     },
     "Cacturne": {
@@ -3893,13 +3893,13 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "bs": {
             "hp": 70,
             "at": 115,
-            "df": 60,
+            "df": 75,
             "sa": 115,
-            "sd": 60,
-            "sp": 55
+            "sd": 75,
+            "sp": 40
         },
         "w": 77.4,
-        "ab": "Sand Veil"
+        "ab": "Dry Skin"
     },
     "Camerupt": {
         "t1": "Fire",
@@ -3948,9 +3948,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Normal",
         "bs": {
             "hp": 70,
-            "at": 70,
+            "at": 40,
             "df": 70,
-            "sa": 70,
+            "sa": 100,
             "sd": 70,
             "sp": 70
         },
@@ -3988,10 +3988,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Ground",
         "t2": "Psychic",
         "bs": {
-            "hp": 60,
-            "at": 70,
+            "hp": 80,
+            "at": 75,
             "df": 105,
-            "sa": 70,
+            "sa": 75,
             "sd": 120,
             "sp": 75
         },
@@ -4039,7 +4039,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 43
         },
         "w": 60.4,
-        "ab": "Suction Cups",
+        "ab": "Storm Drain",
     },
     "Crawdaunt": {
         "t1": "Water",
@@ -4134,7 +4134,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 65
         },
         "w": 15.2,
-        "ab": "Static",
+        "ab": "Lightning Rod",
         "canEvolve": true,
     },
     "Exploud": {
@@ -4171,7 +4171,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "hp": 80,
             "at": 100,
             "df": 80,
-            "sa": 80,
+            "sa": 100,
             "sd": 80,
             "sp": 100
         },
@@ -4181,7 +4181,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     "Gardevoir": {
         "t1": "Psychic",
         "bs": {
-            "hp": 68,
+            "hp": 78,
             "at": 65,
             "df": 65,
             "sa": 125,
@@ -4195,9 +4195,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Ice",
         "bs": {
             "hp": 80,
-            "at": 80,
+            "at": 90,
             "df": 80,
-            "sa": 80,
+            "sa": 90,
             "sd": 80,
             "sp": 80
         },
@@ -4327,20 +4327,20 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     "Kecleon": {
         "t1": "Normal",
         "bs": {
-            "hp": 60,
+            "hp": 80,
             "at": 90,
-            "df": 70,
+            "df": 90,
             "sa": 60,
             "sd": 120,
             "sp": 40
         },
         "w": 22.0,
-        "ab": "Color Change",
+        "ab": "Technician",
     },
     "Kirlia": {
         "t1": "Psychic",
         "bs": {
-            "hp": 38,
+            "hp": 48,
             "at": 35,
             "df": 35,
             "sa": 65,
@@ -4419,21 +4419,21 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 23
         },
         "w": 23.8,
-        "ab": "Suction Cups",
+        "ab": "Storm Drain",
         "canEvolve": true,
     },
     "Linoone": {
         "t1": "Normal",
         "bs": {
             "hp": 78,
-            "at": 70,
+            "at": 75,
             "df": 61,
             "sa": 50,
             "sd": 61,
-            "sp": 100
+            "sp": 105
         },
         "w": 32.5,
-        "ab": "Pickup",
+        "ab": "Keen Eye",
     },
     "Lombre": {
         "t1": "Water",
@@ -4500,7 +4500,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "hp": 70,
             "at": 55,
             "df": 65,
-            "sa": 95,
+            "sa": 105,
             "sd": 85,
             "sp": 70
         },
@@ -4580,11 +4580,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Steel",
         "bs": {
             "hp": 50,
-            "at": 85,
+            "at": 115,
             "df": 85,
             "sa": 55,
             "sd": 55,
-            "sp": 50
+            "sp": 70
         },
         "w": 11.5,
         "ab": "Intimidate",
@@ -4651,11 +4651,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Dark",
         "bs": {
             "hp": 70,
-            "at": 90,
+            "at": 100,
             "df": 70,
-            "sa": 60,
-            "sd": 60,
-            "sp": 70
+            "sa": 50,
+            "sd": 70,
+            "sp": 75
         },
         "w": 37.0,
         "ab": "Intimidate"
@@ -4684,7 +4684,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 95
         },
         "w": 4.2,
-        "ab": "Minus",
+        "ab": "Volt Absorb",
     },
     "Mudkip": {
         "t1": "Water",
@@ -4785,7 +4785,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 65
         },
         "w": 28.0,
-        "ab": "Keen Eye",
+        "ab": "Water Veil",
     },
     "Plusle": {
         "t1": "Electric",
@@ -4798,17 +4798,17 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 95
         },
         "w": 4.2,
-        "ab": "Plus",
+        "ab": "Lightning Rod",
     },
     "Poochyena": {
         "t1": "Dark",
         "bs": {
             "hp": 35,
-            "at": 55,
+            "at": 65,
             "df": 35,
             "sa": 30,
             "sd": 30,
-            "sp": 35
+            "sp": 45
         },
         "w": 13.6,
         "ab": "Run Away",
@@ -4893,7 +4893,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
             "sp": 55
         },
         "w": 23.4,
-        "ab": "Swift Swim",
+        "ab": "Rock Head",
     },
     "Roselia": {
         "t1": "Grass",
@@ -4914,15 +4914,15 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Dark",
         "t2": "Ghost",
         "bs": {
-            "hp": 50,
+            "hp": 70,
             "at": 75,
-            "df": 75,
+            "df": 90,
             "sa": 65,
-            "sd": 65,
+            "sd": 80,
             "sp": 50
         },
         "w": 11.0,
-        "ab": "Keen Eye",
+        "ab": "Shield Dust",
     },
     "Salamence": {
         "t1": "Dragon",
@@ -4983,12 +4983,12 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     "Seviper": {
         "t1": "Poison",
         "bs": {
-            "hp": 73,
+            "hp": 88,
             "at": 100,
             "df": 60,
-            "sa": 100,
+            "sa": 110,
             "sd": 60,
-            "sp": 65
+            "sp": 75
         },
         "w": 52.5,
         "ab": "Shed Skin",
@@ -5151,7 +5151,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t2": "Psychic",
         "bs": {
             "hp": 70,
-            "at": 95,
+            "at": 105,
             "df": 85,
             "sa": 55,
             "sd": 65,
@@ -5362,9 +5362,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t2": "Dragon",
         "bs": {
             "hp": 50,
-            "at": 70,
+            "at": 80,
             "df": 50,
-            "sa": 50,
+            "sa": 60,
             "sd": 50,
             "sp": 70
         },
@@ -5515,11 +5515,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Normal",
         "bs": {
             "hp": 73,
-            "at": 115,
-            "df": 60,
+            "at": 125,
+            "df": 70,
             "sa": 60,
-            "sd": 60,
-            "sp": 90
+            "sd": 70,
+            "sp": 95
         },
         "w": 40.3,
         "ab": "Immunity",
@@ -5528,7 +5528,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
         "t1": "Normal",
         "bs": {
             "hp": 38,
-            "at": 30,
+            "at": 40,
             "df": 41,
             "sa": 30,
             "sd": 41,
@@ -5607,9 +5607,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t2": "Ice",
         "bs": {
             "hp": 90,
-            "at": 92,
+            "at": 102,
             "df": 75,
-            "sa": 92,
+            "sa": 102,
             "sd": 85,
             "sp": 60
         },
@@ -5619,7 +5619,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     "Ambipom": {
         "t1": "Normal",
         "bs": {
-            "hp": 75,
+            "hp": 85,
             "at": 100,
             "df": 66,
             "sa": 60,
@@ -5673,10 +5673,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t1": "Normal",
         "t2": "Water",
         "bs": {
-            "hp": 79,
+            "hp": 89,
             "at": 85,
             "df": 60,
-            "sa": 55,
+            "sa": 65,
             "sd": 60,
             "sp": 71
         },
@@ -5718,7 +5718,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "hp": 67,
             "at": 89,
             "df": 116,
-            "sa": 79,
+            "sa": 89,
             "sd": 116,
             "sp": 33
         },
@@ -5780,7 +5780,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 85
         },
         "w": 5.5,
-        "ab": "Klutz",
+        "ab": "Scrappy",
         "canEvolve": true,
     },
     "Burmy": {
@@ -5933,7 +5933,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 50
         },
         "w": 23.0,
-        "ab": "Dry Skin",
+        "ab": "Unburden",
         "canEvolve": true,
     },
     "Darkrai": {
@@ -5967,7 +5967,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t1": "Poison",
         "t2": "Dark",
         "bs": {
-            "hp": 70,
+            "hp": 80,
             "at": 90,
             "df": 110,
             "sa": 60,
@@ -6009,11 +6009,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     "Dusknoir": {
         "t1": "Ghost",
         "bs": {
-            "hp": 45,
+            "hp": 65,
             "at": 100,
-            "df": 135,
+            "df": 125,
             "sa": 65,
-            "sd": 135,
+            "sd": 125,
             "sp": 45
         },
         "w": 106.6,
@@ -6065,9 +6065,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "bs": {
             "hp": 85,
             "at": 105,
-            "df": 55,
+            "df": 65,
             "sa": 85,
-            "sd": 50,
+            "sd": 60,
             "sp": 115
         },
         "w": 33.5,
@@ -6078,9 +6078,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t2": "Ghost",
         "bs": {
             "hp": 70,
-            "at": 80,
+            "at": 90,
             "df": 70,
-            "sa": 80,
+            "sa": 90,
             "sd": 70,
             "sp": 110
         },
@@ -6099,19 +6099,19 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 82
         },
         "w": 56.0,
-        "ab": "Sand Veil",
+        "ab": "Rough Skin",
         "canEvolve": true,
     },
     "Gallade": {
         "t1": "Psychic",
         "t2": "Fighting",
         "bs": {
-            "hp": 68,
+            "hp": 78,
             "at": 125,
             "df": 65,
             "sa": 65,
-            "sd": 115,
-            "sp": 80
+            "sd": 105,
+            "sp": 90
         },
         "w": 52.0,
         "ab": "Steadfast",
@@ -6128,7 +6128,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 102
         },
         "w": 95.0,
-        "ab": "Sand Veil"
+        "ab": "Rough Skin"
     },
     "Gastrodon": {
         "t1": "Water",
@@ -6156,7 +6156,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 42
         },
         "w": 20.5,
-        "ab": "Sand Veil",
+        "ab": "Rough Skin",
         "canEvolve": true,
     },
     "Giratina": {
@@ -6184,13 +6184,13 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 65
         },
         "w": 25.9,
-        "ab": "Snow Cloak"
+        "ab": "Filter"
     },
     "Glameow": {
         "t1": "Normal",
         "bs": {
             "hp": 49,
-            "at": 55,
+            "at": 65,
             "df": 42,
             "sa": 42,
             "sd": 37,
@@ -6289,7 +6289,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "bs": {
             "hp": 100,
             "at": 125,
-            "df": 52,
+            "df": 62,
             "sa": 105,
             "sd": 52,
             "sp": 71
@@ -6301,7 +6301,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t1": "Fire",
         "t2": "Fighting",
         "bs": {
-            "hp": 76,
+            "hp": 77,
             "at": 104,
             "df": 71,
             "sa": 104,
@@ -6328,12 +6328,12 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     "Kricketune": {
         "t1": "Bug",
         "bs": {
-            "hp": 77,
+            "hp": 87,
             "at": 85,
-            "df": 51,
-            "sa": 55,
-            "sd": 51,
-            "sp": 65
+            "df": 66,
+            "sa": 45,
+            "sd": 66,
+            "sp": 85
         },
         "w": 25.5,
         "ab": "Swarm"
@@ -6349,7 +6349,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 95
         },
         "w": 25.5,
-        "ab": "Leaf Guard",
+        "ab": "Chlorophyll",
     },
     "Lickilicky": {
         "t1": "Normal",
@@ -6375,7 +6375,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 105
         },
         "w": 33.3,
-        "ab": "Klutz",
+        "ab": "Scrappy",
     },
     "Lucario": {
         "t1": "Fighting",
@@ -6426,7 +6426,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "df": 79,
             "sa": 95,
             "sd": 79,
-            "sp": 70
+            "sp": 80
         },
         "w": 42.0,
         "ab": "Intimidate",
@@ -6456,7 +6456,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 60
         },
         "w": 180.0,
-        "ab": "Magnet Pull",
+        "ab": "Sturdy",
     },
     "Mamoswine": {
         "t1": "Ice",
@@ -6533,7 +6533,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "hp": 60,
             "at": 60,
             "df": 60,
-            "sa": 105,
+            "sa": 115,
             "sd": 105,
             "sp": 105
         },
@@ -6587,9 +6587,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t1": "Electric",
         "bs": {
             "hp": 60,
-            "at": 45,
+            "at": 60,
             "df": 70,
-            "sa": 45,
+            "sa": 60,
             "sd": 90,
             "sp": 95
         },
@@ -6683,9 +6683,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "bs": {
             "hp": 71,
             "at": 82,
-            "df": 64,
+            "df": 74,
             "sa": 64,
-            "sd": 59,
+            "sd": 79,
             "sp": 112
         },
         "w": 43.8,
@@ -6754,7 +6754,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "df": 55,
             "sa": 125,
             "sd": 105,
-            "sp": 90
+            "sp": 95
         },
         "w": 14.5,
         "ab": "Natural Cure",
@@ -6877,7 +6877,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
         "t1": "Ghost",
         "t2": "Dark",
         "bs": {
-            "hp": 50,
+            "hp": 70,
             "at": 92,
             "df": 108,
             "sa": 92,
@@ -6885,7 +6885,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 35
         },
         "w": 108.0,
-        "ab": "Pressure",
+        "ab": "Synchronize",
     },
     "Staraptor": {
         "t1": "Normal",
@@ -6994,12 +6994,12 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "hp": 83,
             "at": 106,
             "df": 65,
-            "sa": 86,
+            "sa": 106,
             "sd": 65,
             "sp": 85
         },
         "w": 44.4,
-        "ab": "Dry Skin",
+        "ab": "Unburden",
     },
     "Turtwig": {
         "t1": "Grass",
@@ -7040,7 +7040,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 40
         },
         "w": 38.5,
-        "ab": "Pressure",
+        "ab": "Swarm",
     },
     "Weavile": {
         "t1": "Dark",
@@ -7054,7 +7054,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 125
         },
         "w": 34.0,
-        "ab": "Pressure",
+        "ab": "Inner Focus",
     },
     "Wormadam": {
         "t1": "Bug",
@@ -7110,7 +7110,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "sp": 95
         },
         "w": 51.5,
-        "ab": "Speed Boost",
+        "ab": "Tinted Lens",
     },
     //PtHGSS Pokemon
     "Rotom-Mow": {
@@ -7230,7 +7230,7 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     //type changes
     "Clefable": { "bs": { "sa": 95 } },
     "Wigglytuff": { "bs": { "sa": 85 } },
-    "Azumarill": { "bs": { "sa": 60 } },
+    "Azumarill": { "bs": { "sa": 70 } },
     //stat buffs
     "Butterfree": { "bs": { "sa": 90 } },
     "Pikachu": { "bs": { "df": 40, "sd": 50 } },
@@ -7239,9 +7239,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     "Nidoking": { "bs": { "at": 102 } },
     "Vileplume": { "bs": { "sa": 110 } },
     "Poliwrath": { "bs": { "at": 95 } },
-    "Victreebel": { "bs": { "sd": 70 } },
+    "Victreebel": { "bs": { "sd": 75 } },
     "Golem": { "bs": { "at": 120 } },
-    "Bellossom": { "bs": { "df": 95 } },
+    "Bellossom": { "bs": { "df": 90 } },
     "Jumpluff": { "bs": { "sd": 95 } },
     "Beautifly": { "bs": { "sa": 100 } },
     "Exploud": { "bs": { "sd": 73 } },
@@ -7260,7 +7260,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "Woobat": { "bs": { "hp": 65 } },
     "Cryogonal": { "bs": { "hp": 80, "df": 50 } },
     "Dugtrio": { "bs": { "at": 100 } },
-    "Arbok": { "bs": { "at": 95 } },
+    "Arbok": { "bs": { "at": 115 } },
     "Farfetch'd": { "bs": { "at": 90 } },
     "Crustle": { "bs": { "at": 105 } },
     "Beartic": { "bs": { "at": 130 } },
@@ -7396,8 +7396,6 @@ var NO_FORMS_SV =
         //Indigo Disk additions (none in Teal Mask)
         'Venusaur', 'Blastoise', 'Sceptile', 'Blaziken', 'Swampert', 'Metagross', 'Latias', 'Latios', 'Necrozma-Dusk-Mane', 'Necrozma-Dawn-Wings',
     ];
-
-NO_FORMS_SV.forEach(e => POKEDEX_SV[e].formes = null);
 
 //function tempCSV() {
 //    var pokemonCSV = "Pokemon,Type 1,Type 2,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed\n";

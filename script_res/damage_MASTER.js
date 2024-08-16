@@ -312,7 +312,7 @@ function setHighestStat(pokemon, pPosition) {
 function usesPhysicalAttack(attacker, defender, move) {
     var userStatsMove = move.name == "Photon Geyser" || move.name == "Light That Burns the Sky"
         || (move.name == "Tera Blast" && attacker.isTerastalize) || (move.name == "Tera Starstorm" && attacker.name == "Terapagos-Stellar");
-    var smartMove = move.name == "Shell Side Arm";
+    var smartMove = move.name == "Shell Side Arm" || move.name == "Razor Wind";
 
     return (userStatsMove && attacker.stats[AT] > attacker.stats[SA]) || (smartMove && (attacker.stats[AT] / defender.stats[DF]) > (attacker.stats[SA] / defender.stats[SD]));
 }
@@ -1381,6 +1381,10 @@ function calcBPMods(attacker, defender, field, move, description, ateIzeBoosted,
     }
 
     //b. Rivalry
+    if (attacker.ability === "Rivalry") {
+        bpMods.push(0x1199);
+        description.attackerAbility = "Rivalry boosted"
+    } //Rivalry is 10% in this hack
 
     //c. 1.2x Abilities
     //c.i. Galvanize, Aerilate, Pixilate, Refrigerate, Normalize        (Technically Normalize is separate but it doesn't hurt to handle it where it is now)
@@ -1673,7 +1677,7 @@ function calcAttack(move, attacker, defender, description, isCritical, defAbilit
     //e. Hustle
     // unlike all other attack modifiers, Hustle gets applied directly
     if (attacker.ability === "Hustle" && move.category === "Physical") {
-        attack = pokeRound(attack * 3 / 2);
+        attack = pokeRound(attack * 6 / 5);
         description.attackerAbility = attacker.ability;
     }
 
