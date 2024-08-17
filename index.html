@@ -54,6 +54,8 @@
 
             <p><i>This calculator was not originally made by us.</i> It is a fork of <a href="https://nerd-of-now.github.io/NCP-VGC-Damage-Calculator/">this calculator here.</a></p>
             
+            <p>Documentation for the romhack can be found <a href="https://docs.google.com/spreadsheets/d/1DqxQ5a1-nYffrzoLzTaqE2lJ375PILIrMFVzrAY0AEM/edit?usp=sharing">here.</a></p>
+            
             <p>Calculator originally by Alex Collins (<a href="https://twitter.com/nerd_of_now">@nerd_of_now</a>). Basis of the calculator by Jake White (<a href="https://twitter.com/squirrelboydev" target="_blank" rel="noopener noreferrer">@squirrelboydev</a>).</p>
             
             <!--<br><p>Is there an important or relevant set missing? <a href="https://forms.gle/zBbEnvp2vZ2UADUJA" target="_blank" rel="noopener noreferrer">Give us your suggestion!</a></p>-->
@@ -94,10 +96,6 @@
                             <label>Type</label>
                             <select class="type1 terrain-trigger calc-trigger"></select>
                             <select class="type2 terrain-trigger calc-trigger"></select>
-                        </div>
-                        <div class="gen-specific g9">
-                            <label>Tera Type</label>
-                            <select class="tera-type calc-trigger gen-specific g9"></select>
                         </div>
                         <div class="hide">
                             <label>Forme</label>
@@ -190,8 +188,6 @@
                     <div class="info-group">
                         <label>Current HP</label>
                         <input class="current-hp calc-trigger" value="341" />/<span class="max-hp">341</span> (<input class="percent-hp calc-trigger" value="100" />%)
-                        <input class="max move-max calc-trigger btn-input" type="checkbox" id="maxL" /><label class="btn btn-wide gen-specific g8" for="maxL" title="Dynamax this Pokémon?">Dynamax</label>
-                        <input class="tera move-tera calc-trigger btn-input" type="checkbox" id="teraL" /><label class="btn btn-wide gen-specific g9" for="teraL" title="Terastalize this Pokémon?">Terastal</label>
                         <br />
                         <input class="hp-bar" type="range" min="0" max="714" step="1" value="714" />
                     </div>
@@ -201,13 +197,11 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critL1" /><label class="btn crit-btn" for="critL1" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zL1" /><label class="btn x-btn gen-specific g7" for="zL1" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleL1" /><label class="double-btn btn x-btn" for="doubleL1" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarL1" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarL1" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <div class="move2">
                         <select class="move-selector calc-trigger small-select"></select>
@@ -215,13 +209,11 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critL2" /><label class="btn crit-btn" for="critL2" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zL2" /><label class="btn x-btn gen-specific g7" for="zL2" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleL2" /><label class="double-btn btn x-btn" for="doubleL2" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarL2" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarL2" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <div class="move3">
                         <select class="move-selector calc-trigger small-select"></select>
@@ -229,13 +221,11 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critL3" /><label class="btn crit-btn" for="critL3" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zL3" /><label class="btn x-btn gen-specific g7" for="zL3" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleL3" /><label class="double-btn btn x-btn" for="doubleL3" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarL3" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarL3" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <div class="move4">
                         <select class="move-selector calc-trigger small-select"></select>
@@ -243,17 +233,15 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critL4" /><label class="btn crit-btn" for="critL4" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zL4" /><label class="btn x-btn gen-specific g7" for="zL4" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleL4" /><label class="double-btn btn x-btn" for="doubleL4" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarL4" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarL4" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <input class="glaive-rush calc-trigger hide" type="checkbox" id="glaiveL" title="Apply double damage from using Glaive Rush?" />
                     <div class="info-group">
-                        <input type="text" class="setCalc" id="setName1" style="width: 25%" value="My Calc Set">
+                        <input type="text" class="setCalc" id="setName1" style="width: 25%" value="Calc Set">
                         <button type="button" onclick="runSaveCalc(1)">Save Calc Set</button>
                         <button type="button" onclick="runExportSet(1)">Export Set</button>
                         <button type="button" onclick="runDeleteSet(1)" class="delset">Delete Set</button>
@@ -272,79 +260,28 @@
                         <input class="btn-input calc-trigger" type="radio" name="format" value="Singles" id="singles" checked="checked" /><label class="btn btn-left" for="singles">Singles</label>
                         <input class="btn-input calc-trigger" type="radio" name="format" value="Doubles" id="doubles" /><label class="btn btn-right" for="doubles">Doubles</label>
                     </div>
-                    <div class="gen-specific g8 g9" style="width: 23.0em; margin: 5px auto;" title="Select the current terrain.">
-                        <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="" id="noterrain" checked="checked" /><label class="btn btn-small btn-left" for="noterrain">None</label>
-                        <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="Electric" id="electric" /><label class="btn btn-small btn-mid" for="electric">Electric</label>
-                        <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="Grassy" id="grassy" /><label class="btn btn-small btn-mid" for="grassy">Grassy</label>
-                        <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="Misty" id="misty" /><label class="btn btn-small btn-mid" for="misty">Misty</label>
-                        <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-small btn-right" for="psychic">Psychic</label>
-                    </div>
                     <hr class="gen-specific g6 g7 g8 g9" />
                     <div class="gen-specific g3 g4 g5 g6 g7 g8 g9" style="width: 23em; margin: 5px auto;" title="Select the current weather condition.">
                         <input class="btn-input calc-trigger" type="radio" name="weather" value="" id="clear" checked="checked" /><label class="btn btn-small btn-left" for="clear">None</label>
                         <input class="btn-input calc-trigger" type="radio" name="weather" value="Sun" id="sun" /><label class="btn btn-small btn-mid" for="sun">Sun</label>
                         <input class="btn-input calc-trigger" type="radio" name="weather" value="Rain" id="rain" /><label class="btn btn-small btn-mid" for="rain">Rain</label>
                         <input class="btn-input calc-trigger" type="radio" name="weather" value="Sand" id="sand" /><label class="btn btn-small btn-mid" for="sand">Sand</label>
-                        <input class="btn-input calc-trigger" type="radio" name="weather" value="Hail" id="hail" /><label class="btn btn-small btn-right gen-specific g3 g4 g5 g6" for="hail">Hail</label>
                         <input class="btn-input calc-trigger" type="radio" name="weather" value="Snow" id="snow" /><label class="btn btn-small btn-right gen-specific g7 g8 g9" for="snow">Snow</label>
-                    </div>
-                    <div class="gen-specific g8" id="primal-weather" style="width: 23em; margin: 5px auto;" title="Select the current weather condition.">
-                        <input class="btn-input calc-trigger" type="radio" name="weather" value="Harsh Sun" id="harsh-sun" /><label class="btn btn-wide btn-left" for="harsh-sun">Harsh Sun</label>
-                        <input class="btn-input calc-trigger" type="radio" name="weather" value="Heavy Rain" id="heavy-rain" /><label class="btn btn-wide btn-mid" for="heavy-rain">Heavy Rain</label>
-                        <input class="btn-input calc-trigger" type="radio" name="weather" value="Strong Winds" id="strong-winds" /><label class="btn btn-xwide btn-right" for="strong-winds">Strong Winds</label>
-                    </div>
-                    <div class="gen-specific g2 hide" style="width: 23em; margin: 0 auto 5px;" title="Select the current weather condition.">
-                        <input class="btn-input calc-trigger" type="radio" name="gscWeather" value="" id="gscClear" checked="checked" /><label class="btn btn-small btn-left" for="gscClear">None</label>
-                        <input class="btn-input calc-trigger" type="radio" name="gscWeather" value="Sun" id="gscSun" /><label class="btn btn-small btn-mid" for="gscSun">Sun</label>
-                        <input class="btn-input calc-trigger" type="radio" name="gscWeather" value="Rain" id="gscRain" /><label class="btn btn-small btn-mid" for="gscRain">Rain</label>
-                        <input class="btn-input calc-trigger" type="radio" name="gscWeather" value="Sand" id="gscSand" /><label class="btn btn-small btn-right" for="gscSand">Sand</label>
-                    </div>
-                    <div class="gen-specific g8" id="auras" style="width: 22em; margin: 5px auto;" title="Select the current radiating aura.">
-                        <input class="btn-input calc-trigger" type="checkbox" name="aura" value="Aura Break" id="aura-break" /><label class="btn btn-wide btn-left" for="aura-break">Aura Break</label>
-                        <input class="btn-input calc-trigger" type="checkbox" name="aura" value="Fairy Aura" id="fairy-aura" /><label class="btn btn-wide btn-mid" for="fairy-aura">Fairy Aura</label>
-                        <input class="btn-input calc-trigger" type="checkbox" name="aura" value="Dark Aura" id="dark-aura" /><label class="btn btn-wide btn-right" for="dark-aura">Dark Aura</label>
-                    </div>
-                    <div class="gen-specific g9" style="width: 21em; margin: 5px auto;" title="Select the current active Ruin abilities.">
-                        <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Tablets of Ruin" id="tablets-of-ruin" /><label class="btn btn-xxxxwide btn-left" for="tablets-of-ruin">Tablets of Ruin <u>(-Atk)</u></label>
-                        <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Vessel of Ruin" id="vessel-of-ruin" /><label class="btn btn-xxxxwide btn-right" for="vessel-of-ruin">Vessel of Ruin <u>(-SpA)</u></label>
-                        <br />
-                        <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Sword of Ruin" id="sword-of-ruin" /><label class="btn btn-xxxxwide btn-left" for="sword-of-ruin">Sword of Ruin <u>(-Def)</u></label>
-                        <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Beads of Ruin" id="beads-of-ruin" /><label class="btn btn-xxxxwide btn-right" for="beads-of-ruin">Beads of Ruin <u>(-SpD)</u></label>
                     </div>
                     <div class="gen-specific g4 g5 g6 g7 g8 g9" style="width: 17em; margin: 5px auto;">
                         <div class="gen-specific g4 g5 g6 g7 divider">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
                         <input class="btn-input calc-trigger" type="checkbox" id="gravity" /><label class="btn" for="gravity" title="Is gravity in effect?">Gravity</label>
-                        <div class="gen-specific g8 g9 divider">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <input class="btn-input calc-trigger" type="checkbox" id="neutralizingGas" /><label class="btn btn-xxwide" for="neutralizingGas" title="Is neutralizing gas in effect?">Neutralizing Gas </label>
-                        </div>
                     </div>
                     <!-- Note: I know the html is clunky but it does make it look nicer so idk probably worth -->
                     <hr class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9" />
-                    <div class="btn-group gen-specific g8" id="protect-field">
-                        <div class="left" title="Is this Pokémon protecting?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="protectL" /><label class="btn btn-xwide" for="protectL">Protect</label>
-                        </div>
-                        <div class="right" title="Is this Pokémon protecting?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="protectR" /><label class="btn btn-xwide" for="protectR">Protect</label>
-                        </div>
-                    </div>
                     <div class="btn-group gen-specific g3 g4 g5 g6 g7 g8 g9">
                         <div class="left" title="Has this Pokémon's power been boosted by an ally's Helping Hand?">
                             <input class="btn-input calc-trigger" type="checkbox" id="helpingHandL" /><label class="btn btn-xwide" for="helpingHandL">Helping Hand</label>
                         </div>
                         <div class="right" title="Has this Pokémon's power been boosted by an ally's Helping Hand?">
                             <input class="btn-input calc-trigger" type="checkbox" id="helpingHandR" /><label class="btn btn-xwide" for="helpingHandR">Helping Hand</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8 g9">
-                        <div class="left" title="Is this Pokémon protected by Aurora Veil?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="auroraVeilL" /><label class="btn btn-xwide" for="auroraVeilL">Aurora Veil</label>
-                        </div>
-                        <div class="right" title="Is this Pokémon protected by Aurora Veil?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="auroraVeilR" /><label class="btn btn-xwide" for="auroraVeilR">Aurora Veil</label>
                         </div>
                     </div>
                     <div class="btn-group">
@@ -357,50 +294,12 @@
                             <input class="btn-input calc-trigger" type="checkbox" id="lightScreenR" /><label class="btn btn-wide btn-right" for="lightScreenR">Light Screen</label>
                         </div>
                     </div>
-                    <div class="btn-group gen-specific g8">
-                        <div class="left" title="Has this Pokémon's Weakness Policy been activated?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="weakL" /><label class="btn btn-xwide" for="weakL"><img src="image_res/Weakness_Policy.png"><br>Weakness Policy</label>
-                        </div>
-                        <div class="right" title="Has this Pokémon's Weakness Policy been activated?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="weakR" /><label class="btn btn-xwide" for="weakR"><img src="image_res/Weakness_Policy.png"><br>Weakness Policy</label>
-                        </div>
-                    </div>
                     <div class="btn-group gen-specific g4 g5 g6 g7 g8 g9">
                         <div class="left" title="Has Tailwind been set?">
                             <input class="btn-input calc-trigger" type="checkbox" id="tailwindL" /><label class="btn btn-xwide" for="tailwindL">Tailwind</label>
                         </div>
                         <div class="right" title="Has Tailwind been set?">
                             <input class="btn-input calc-trigger" type="checkbox" id="tailwindR" /><label class="btn btn-xwide" for="tailwindR">Tailwind</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8 g9">
-                        <div class="left" title="Has the opponent set up a sea of fire?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="seaFireL" /><label class="btn btn-wide btn-left" for="seaFireL">Sea of Fire</label>
-                        </div>
-                        <div class="left" title="Has the opponent set up a swamp?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="swampL" /><label class="btn btn-right" for="swampL">Swamp</label>
-                        </div>
-                        <div class="right" title="Has the opponent set up a swamp?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="swampR" /><label class="btn btn-right" for="swampR">Swamp</label>
-                        </div>
-                        <div class="right" title="Has the opponent set up a sea of fire?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="seaFireR" /><label class="btn btn-wide btn-left" for="seaFireR">Sea of Fire</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8">
-                        <div class="left" title="Is G-Max Wildfire, Volcalith, Vine Lash, or Cannonade in effect?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="gMaxFieldL" /><label class="btn btn-xwide" for="gMaxFieldL">G-Max Field</label>
-                        </div>
-                        <div class="right" title="Is G-Max Wildfire, Volcalith, Vine Lash, or Cannonade in effect?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="gMaxFieldR" /><label class="btn btn-xwide" for="gMaxFieldR">G-Max Field</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8 g9">
-                        <div class="left" title="Is this Pokémon protected by an ally's Friend Guard?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="friendGuardL" /><label class="btn btn-xwide" for="friendGuardL">Friend Guard</label>
-                        </div>
-                        <div class="right" title="Is this Pokémon protected by an ally's Friend Guard?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="friendGuardR" /><label class="btn btn-xwide" for="friendGuardR">Friend Guard</label>
                         </div>
                     </div>
                     <div class="btn-group gen-specific g4 g5 g6 g7 g8 g9">
@@ -433,70 +332,6 @@
                             <input class="btn-input calc-trigger" type="checkbox" id="flowerGiftR" /><label class="btn btn-xxwide" for="flowerGiftR">Flower Gift</label>
                         </div>
                     </div>
-                    <div class="btn-group gen-specific g8 g9">
-                        <div class="left" title="Does this Pokémon's ally have Steely Spirit?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="steelySpiritL" /><label class="btn btn-xwide" for="steelySpiritL">Steely Spirit</label>
-                        </div>
-                        <div class="right" title="Does this Pokémon's ally have Steely Spirit?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="steelySpiritR" /><label class="btn btn-xwide" for="steelySpiritR">Steely Spirit</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8 g9">
-                        <div class="left" title="Is this Pokémon boosted by an ally's Power Spot?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="powerSpotL" /><label class="btn btn-xwide" for="powerSpotL">Power Spot</label>
-                        </div>
-                        <div class="right" title="Is this Pokémon boosted by an ally's Power Spot?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="powerSpotR" /><label class="btn btn-xwide" for="powerSpotR">Power Spot</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8 g9">
-                        <div class="left" title="Has this Pokémon's power been boosted by an ally's Battery?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="batteryL" /><label class="btn btn-xwide" for="batteryL">Battery</label>
-                        </div>
-                        <div class="right" title="Has this Pokémon's power been boosted by an ally's Battery?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="batteryR" /><label class="btn btn-xwide" for="batteryR">Battery</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g9">
-                        <div class="left" title="Is this Pokémon affected by Salt Cure?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="saltCureL" /><label class="btn btn-xwide" for="saltCureL">Salt Cure</label>
-                        </div>
-                        <div class="right" title="Is this Pokémon affected by Salt Cure?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="saltCureR" /><label class="btn btn-xwide" for="saltCureR">Salt Cure</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8">
-                        <div class="left" title="Has this Pokémon used Geomancy?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="clangL" /><label class="btn btn-xwide" for="clangL"><img src="image_res/minisprites/716.png"><br>Geomancy</label>
-                        </div>
-                        <div class="right" title="Has this Pokémon used Geomancy?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="clangR" /><label class="btn btn-xwide" for="clangR"><img src="image_res/minisprites/716.png"><br>Geomancy</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g8">
-                        <div class="left" title="Has this Pokémon used Extreme Evoboost?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="evoL" /><label class="btn btn-xwide" for="evoL"><img src="image_res/133.png"><br>Extreme Evoboost</label>
-                        </div>
-                        <div class="right" title="Has this Pokémon used Extreme Evoboost?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="evoR" /><label class="btn btn-xwide" for="evoR"><img src="image_res/133.png"><br>Extreme Evoboost</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g9">
-                        <div class="left" title="Has this Pokémon eaten a Tatsugiri?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="tatsuL" /><label class="btn btn-xwide" for="tatsuL"><img src="image_res/Tatsugiri.png" width="58" height="58"><br>Commander</label>
-                        </div>
-                        <div class="right" title="Has this Pokémon eaten a Tatsugiri?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="tatsuR" /><label class="btn btn-xwide" for="tatsuR"><img src="image_res/Tatsugiri.png" width="58" height="58"><br>Commander</label>
-                        </div>
-                    </div>
-                    <div class="btn-group gen-specific g2">
-                        <div class="left" title="Are there Spikes on this side of the field?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="gscSpikesL" /><label class="btn" for="gscSpikesL">Spikes</label>
-                        </div>
-                        <div class="right" title="Are there Spikes on this side of the field?">
-                            <input class="btn-input calc-trigger" type="checkbox" id="gscSpikesR" /><label class="btn" for="gscSpikesR">Spikes</label>
-                        </div>
-                    </div>
                     <div class="btn-group gen-specific g2 g3 g4 g5 g6 g7">
                         <div class="left" title="Has this Pokémon been revealed with Foresight or Odor Sleuth?">
                             <input class="btn-input calc-trigger" type="checkbox" id="foresightL" /><label class="btn btn-wide" for="foresightL">Foresight</label>
@@ -507,7 +342,7 @@
                     </div>
 
                     <p>Please enter your custom set here.</p>
-                    Spread Name: <input type="text" id="spreadName" style="width: 60%" value="My Custom Set">
+                    Spread Name: <input type="text" id="spreadName" style="width: 60%" value="Custom Set">
                     <br>
                     <textarea rows="9" cols="36" id="customMon"></textarea>
                     <br>
@@ -527,10 +362,6 @@
                             <label>Type</label>
                             <select class="type1 terrain-trigger calc-trigger"></select>
                             <select class="type2 terrain-trigger calc-trigger"></select>
-                        </div>
-                        <div class="gen-specific g9">
-                            <label>Tera Type</label>
-                            <select class="tera-type calc-trigger gen-specific g9"></select>
                         </div>
                         <div class="hide">
                             <label>Forme</label>
@@ -623,8 +454,6 @@
                     <div class="info-group">
                         <label>Current HP</label>
                         <input class="current-hp calc-trigger" value="341" />/<span class="max-hp">341</span> (<input class="percent-hp calc-trigger" value="100" />%)
-                        <input class="max move-max calc-trigger btn-input" type="checkbox" id="maxR" /><label class="btn btn-wide gen-specific g8" for="maxR" title="Dynamax this Pokémon?">Dynamax</label>
-                        <input class="tera move-tera calc-trigger btn-input" type="checkbox" id="teraR" /><label class="btn btn-wide gen-specific g9" for="teraR" title="Terastalize this Pokémon?">Terastal</label>
                         <br />
                         <input class="hp-bar" type="range" min="0" max="714" step="1" value="714" />
                     </div>
@@ -634,13 +463,11 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critR1" /><label class="btn crit-btn" for="critR1" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zR1" /><label class="btn x-btn gen-specific g7" for="zR1" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleR1" /><label class="double-btn btn x-btn" for="doubleR1" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarR1" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarR1" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <div class="move2">
                         <select class="move-selector calc-trigger small-select"></select>
@@ -648,13 +475,11 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critR2" /><label class="btn crit-btn" for="critR2" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zR2" /><label class="btn x-btn gen-specific g7" for="zR2" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleR2" /><label class="double-btn btn x-btn" for="doubleR2" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarR2" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarR2" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <div class="move3">
                         <select class="move-selector calc-trigger small-select"></select>
@@ -662,13 +487,11 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critR3" /><label class="btn crit-btn" for="critR3" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zR3" /><label class="btn x-btn gen-specific g7" for="zR3" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleR3" /><label class="double-btn btn x-btn" for="doubleR3" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarR3" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarR3" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <div class="move4">
                         <select class="move-selector calc-trigger small-select"></select>
@@ -676,17 +499,15 @@
                         <select class="move-type calc-trigger"></select>
                         <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 g9"><option value="Physical">Physical</option><option value="Special">Special</option><option value="Status">Status</option></select>
                         <input class="move-crit calc-trigger btn-input" type="checkbox" id="critR4" /><label class="btn crit-btn" for="critR4" title="Force this attack to be a critical hit?">Crit</label>
-                        <input class="move-z calc-trigger btn-input" type="checkbox" id="zR4" /><label class="btn x-btn gen-specific g7" for="zR4" title="Use the corresponding Z-Move?">Z-Move</label>
                         <select class="move-hits calc-trigger hide"><option value="1">1 hit</option><option value="2">2 hits</option><option value="3">3 hits</option><option value="4">4 hits</option><option value="5">5 hits</option><option value="6">6 hits</option><option value="7">7 hits</option><option value="8">8 hits</option><option value="9">9 hits</option><option value="10">10 hits</option></select>
                         <input class="move-double calc-trigger btn-input hide" type="checkbox" id="doubleR4" /><label class="double-btn btn x-btn" for="doubleR4" title="Force this attack to deal double damage?">2x BP</label>
                         <select class="move-pledge calc-trigger hide"><option value="Grass Pledge">Grass Pledge</option><option value="Fire Pledge">Fire Pledge</option><option value="Water Pledge">Water Pledge</option></select>
                         <select class="move-linearAddedBP calc-trigger hide"><option value="0">0x effect</option><option value="1">1x effect</option><option value="2">2x effect</option><option value="3">3x effect</option><option value="4">4x effect</option><option value="5">5x effect</option><option value="6">6x effect</option></select>
                         <select class="move-opponent calc-trigger hide"><option value="1">Move 1</option><option value="2">Move 2</option><option value="3">Move 3</option><option value="4">Move 4</option></select>
-                        <input class="move-stellar calc-trigger btn-input hide" type="checkbox" id="stellarR4" checked="checked" /><label class="stellar-btn btn xx-btn" for="stellarR4" title="Is this the first time using a move of this type after Terastalizing?">1st Use</label>
                     </div>
                     <input class="glaive-rush calc-trigger hide" type="checkbox" id="glaiveR" title="Apply double damage from using Glaive Rush?" />
                     <div class="info-group">
-                        <input type="text" class="setCalc" id="setName2" style="width: 25%" value="My Calc Set">
+                        <input type="text" class="setCalc" id="setName2" style="width: 25%" value="Calc Set">
                         <button type="button" onclick="runSaveCalc(2)">Save Calc Set</button>
                         <button type="button" onclick="runExportSet(2)">Export Set</button>
                         <button type="button" onclick="runDeleteSet(2)" class="delset">Delete Set</button>

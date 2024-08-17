@@ -869,7 +869,7 @@ $(".set-selector").change(function() {
                 $(this).closest(".poke-info").find(".delset").show();
             }
             else {
-                $(this).closest(".poke-info").find(".setCalc").val("My Calc Set");
+                $(this).closest(".poke-info").find(".setCalc").val("Calc Set");
                 $(this).closest(".poke-info").find(".delset").hide();
             }
             pokeObj.find(".level").val(set.level); //always pull the level of the set
