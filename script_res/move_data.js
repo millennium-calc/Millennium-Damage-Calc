@@ -2078,7 +2078,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
     'Jump Kick': { bp: 85, },
     'Leaf Blade': { bp: 90 },
     'Outrage': { bp: 120, },
-    'Rock Smash': { bp: 40, },
+    'Rock Smash': { bp: 50, },
     'Zap Cannon': { bp: 120 },
     'Dive': { bp: 80 },
     'Dig': { bp: 80, },
