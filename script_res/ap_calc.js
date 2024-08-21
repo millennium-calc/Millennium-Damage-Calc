@@ -1281,7 +1281,6 @@ function Pokemon(pokeInfo) {
     if (gen >= 3) {
         this.ivs = {};
     }
-    STATS = STATS_GSC;
     for (var i = 0; i < STATS.length; i++) {
         this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
         this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
@@ -1666,7 +1665,6 @@ function clearField() {
 
 function getSetOptions(p) {
     var pokeNames, index;
-    pokedex = POKEDEX_SM;
     pokeNames = Object.keys(pokedex);
     index = pokeNames.length;
     while (index--) {
@@ -1761,8 +1759,8 @@ function getGen() {
         $("#gen" + genLocalStor).change();
     }
     else {
-        $("#gen9").prop("checked", true);
-        $("#gen9").change();
+        $("#gen7").prop("checked", true);
+        $("#gen7").change();
     }
 }
 
