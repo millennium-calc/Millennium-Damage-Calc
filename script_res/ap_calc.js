@@ -1665,7 +1665,9 @@ function clearField() {
 
 function getSetOptions(p) {
     var pokeNames, index;
+    pokedex = POKEDEX_SM;
     pokeNames = Object.keys(pokedex);
+    console.log(pokeNames);
     index = pokeNames.length;
     while (index--) {
         try {
