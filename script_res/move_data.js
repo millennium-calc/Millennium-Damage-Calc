@@ -164,7 +164,7 @@ var MOVES_RBY = {
         category: 'Special'
     },
     'Pin Missile': {
-        bp: 15,
+        bp: 14,
         type: 'Bug',
         category: 'Physical',
         hitRange: [2, 5],
@@ -456,14 +456,14 @@ var MOVES_RBY = {
         makesContact: true,
     },
     'Double Slap': {
-        bp: 15,
+        bp: 20,
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
         hitRange: [2, 5],
     },
     'Comet Punch': {
-        bp: 15,
+        bp: 25,
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
@@ -570,7 +570,7 @@ var MOVES_RBY = {
         makesContact: true,
     },
     'Fury Attack': {
-        bp: 15,
+        bp: 20,
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
@@ -786,7 +786,7 @@ var MOVES_RBY = {
         makesContact: true,
     },
     'Spike Cannon': {
-        bp: 15,
+        bp: 20,
         type: 'Normal',
         category: 'Physical',
         hitRange: [2, 5],
@@ -809,7 +809,7 @@ var MOVES_RBY = {
         isHealing: true,
     },
     'Barrage': {
-        bp: 15,
+        bp: 20,
         type: 'Normal',
         category: 'Physical',
         hitRange: [2, 5],
@@ -851,7 +851,7 @@ var MOVES_RBY = {
         category: 'Status',
     },
     'Fury Swipes': {
-        bp: 15,
+        bp: 20,
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
@@ -1396,7 +1396,7 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         isBullet: true,
     },
     'Bone Rush': {
-        bp: 15,
+        bp: 25,
         type: 'Ground',
         category: 'Physical',
         hitRange: [2, 5],
@@ -1664,7 +1664,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         canDouble: true,
     },
     'Rock Blast': {
-        bp: 15,
+        bp: 25,
         type: 'Rock',
         category: 'Physical',
         hitRange: [2, 5],
@@ -1973,7 +1973,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         hasSecondaryEffect: true
     },
     'Arm Thrust': {
-        bp: 15,
+        bp: 20,
         type: 'Fighting',
         category: 'Physical',
         makesContact: true,
@@ -2036,7 +2036,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         zp: 180
     },
     'Bullet Seed': {
-        bp: 15,
+        bp: 10,
         type: 'Grass',
         category: 'Physical',
         hitRange: [2, 5],
@@ -2044,7 +2044,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         zp: 140
     },
     'Icicle Spear': {
-        bp: 15,
+        bp: 10,
         type: 'Ice',
         category: 'Physical',
         hitRange: [2, 5],
@@ -2752,7 +2752,7 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
     //Past move changes
     'Fire Spin': { bp: 35 },
     'Sand Tomb': { bp: 35 },
-    'Bullet Seed': { bp: 15, },
+    'Bullet Seed': { bp: 20, },
     'Doom Desire': { bp: 140 },
     'Drain Punch': { bp: 75 },
     'Feint': { bp: 30, },
@@ -2767,7 +2767,7 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
     'Future Sight': { bp: 100, },
     'Whirlpool': { bp: 35, },
     'Uproar': { bp: 90, },
-    'Icicle Spear': { bp: 15, },
+    'Icicle Spear': { bp: 20, },
     'Covet': { bp: 60, },
     'Beat Up': {
         bp: 14, //average fully evolved atk. stat is ~90. 90/10 + 5 = 14. c�llate tu boca i'm lazy
@@ -2814,7 +2814,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     'Meteor Mash': { bp: 100 },
     'Muddy Water': { bp: 90 },
     'Overheat': { bp: 130 },
-    'Pin Missile': { bp: 15 },
+    'Pin Missile': { bp: 20 },
     'Power Gem': { bp: 80 },
     'Rock Tomb': { bp: 60 },
     'Surf': { bp: 90 },
@@ -2822,6 +2822,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     'Thunder': { bp: 110 },
     'Thunderbolt': { bp: 90 },
     'Wake-Up Slap': { bp: 70 },
+    'Fury Cutter': { bp: 40, },
     'Future Sight': { bp: 120, },
     'Vine Whip': { bp: 45, },
     'Lick': { bp: 30, },
