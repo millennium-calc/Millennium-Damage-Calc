@@ -1281,6 +1281,7 @@ function Pokemon(pokeInfo) {
     if (gen >= 3) {
         this.ivs = {};
     }
+    STATS = STATS_GSC;
     for (var i = 0; i < STATS.length; i++) {
         this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
         this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
@@ -1667,7 +1668,6 @@ function getSetOptions(p) {
     var pokeNames, index;
     pokedex = POKEDEX_SM;
     pokeNames = Object.keys(pokedex);
-    console.log(pokeNames);
     index = pokeNames.length;
     while (index--) {
         try {
