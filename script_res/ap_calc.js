@@ -1683,7 +1683,7 @@ function getSetOptions(p) {
     var setOptions = [];
     var idNum = 0;
     var usesCustom = $(p + " .set-toggle").prop("checked") && gen >= 3;
-    var setdexUsed = usesCustom ? setdexCustom : setdex;
+    var setdexUsed = SETDEX_TT2019;
     if (!usesCustom) {
         for (var i = 0; i < pokeNames.length; i++) {
             var pokeName = pokeNames[i];
