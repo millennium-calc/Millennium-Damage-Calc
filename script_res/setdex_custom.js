@@ -108,7 +108,7 @@ var savecustom = function () {
     var string = document.getElementById('customMon').value;
     var spreadName = document.getElementById('spreadName').value;
     if (spreadName == '')
-        spreadName = "My Custom Set";
+        spreadName = "Custom Set";
     if (string.trim() == "https://pokepast.es/a78c282608ad27df") {
         alert("Did you just try to stickbug the Damage Calc? lol");
         document.getElementById("customMon").value = "";
@@ -118,7 +118,7 @@ var savecustom = function () {
             .done(function (data) {
                 var setGen = gen;
                 console.log(data);
-                if (data['title'].length && spreadName == 'My Custom Set')
+                if (data['title'].length && spreadName == 'Custom Set')
                     spreadName = data['title'];
                 if (data['notes'].length && data['notes'].indexOf("Format: gen") == 0 && !isNaN(1 * data['notes'][11])) {
                     if (isNaN(1 * data['notes'][12]))   //check for double digits
@@ -366,7 +366,7 @@ var savecalc = function (set, spreadName, accessIVs) {
     moves.push(set.moves[3].name);
 
     if (spreadName == '')
-        spreadName = "My Calc Set";
+        spreadName = "Calc Set";
     customFormat = {
         "level": set.level,
         "evs": {
