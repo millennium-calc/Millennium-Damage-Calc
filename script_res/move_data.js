@@ -1763,7 +1763,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         type: 'Normal',
         category: 'Status'
     },
-    'Hail': {
+    'Snowfall': {
         type: 'Ice',
         category: 'Status'
     },
