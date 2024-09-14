@@ -787,6 +787,26 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Howl"
             ]
         },
+        "Houndour: Mt. Chimney Payne": {
+            "level": 27,
+            "evs": {
+                "hp": 0,
+                "at": 136,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 80
+            },
+            "nature": "Jolly",
+            "ability": "Flash Fire",
+            "item": "Black Glasses",
+            "moves": [
+                "Fire Fang",
+                "Feint Attack",
+                "Taunt",
+                ""
+            ]
+        },
     },
     "Arcanine": {
         "\"Vulpix\": Gym Leader Farfa": {
@@ -815,6 +835,158 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Assurance",
                 "",
                 ""
+            ]
+        },
+        "Arcanine: Mt. Chimney Maxie": {
+            "level": 28,
+            "evs": {
+                "hp": 100,
+                "at": 112,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 88
+            },
+            "nature": "Adamant",
+            "ability": "Intimidate",
+            "item": "Liechi Berry",
+            "moves": [
+                "Flame Wheel",
+                "Rock Smash",
+                "Assurance",
+                "Morning Sun"
+            ]
+        },
+    },
+    "Numel": {
+        "Numel: Mt. Chimney Payne": {
+            "level": 28,
+            "evs": {
+                "hp": 140,
+                "at": 140,
+                "df": 0,
+                "sa": 100,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Quiet",
+            "ability": "Simple",
+            "item": "Passho Berry",
+            "moves": [
+                "Lava Plume",
+                "Magnitude",
+                "Ancient Power",
+                "Yawn"
+            ]
+        },
+    },
+    "Rapidash": {
+        "Rapidash: Mt. Chimney Payne": {
+            "level": 30,
+            "evs": {
+                "hp": 0,
+                "at": 116,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 92
+            },
+            "nature": "Jolly",
+            "ability": "Limber",
+            "item": "Muscle Band",
+            "moves": [
+                "Flame Wheel",
+                "Jump Kick",
+                "Quick Attack",
+                "Will-O-Wisp"
+            ]
+        },
+    },
+    "Sandslash": {
+        "Sandslash: Mt. Chimney Payne": {
+            "level": 27,
+            "evs": {
+                "hp": 0,
+                "at": 116,
+                "df": 0,
+                "sa": 0,
+                "sd": 164,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Battle Armor",
+            "item": "Muscle Band",
+            "moves": [
+                "Magnitude",
+                "Crush Claw",
+                "Rock Tomb",
+                "Poison Sting"
+            ]
+        },
+    },
+    "Charmeleon": {
+        "Charmeleon: Mt. Chimney Payne": {
+            "level": 28,
+            "evs": {
+                "hp": 0,
+                "at": 152,
+                "df": 0,
+                "sa": 52,
+                "sd": 0,
+                "sp": 80
+            },
+            "nature": "Naughty",
+            "ability": "Blaze",
+            "item": "Power Herb",
+            "moves": [
+                "Fire Punch",
+                "Solar Beam",
+                "Bite",
+                "Dragon Rage"
+            ]
+        },
+    },
+    "Combusken": {
+        "Combusken: Mt. Chimney Maxie": {
+            "level": 28,
+            "evs": {
+                "hp": 0,
+                "at": 112,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 108
+            },
+            "nature": "Jolly",
+            "ability": "Blaze",
+            "item": "Focus Sash",
+            "moves": [
+                "Flame Wheel",
+                "Double Kick",
+                "Aerial Ace",
+                "Sunny Day"
+            ]
+        },
+    },
+    "Weepinbell": {
+        "Weepinbell: Mt. Chimney Maxie": {
+            "level": 29,
+            "evs": {
+                "hp": 104,
+                "at": 68,
+                "df": 0,
+                "sa": 0,
+                "sd": 96,
+                "sp": 0
+            },
+            "nature": "Careful",
+            "ability": "Chlorophyll",
+            "item": "Black Sludge",
+            "moves": [
+                "Razor Leaf",
+                "Acid",
+                "Leech Seed",
+                "Synthesis"
             ]
         },
     },
