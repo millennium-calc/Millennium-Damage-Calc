@@ -787,7 +787,9 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Howl"
             ]
         },
-        "Houndour: Mt. Chimney Payne": {
+    },
+    "Houndoom": {
+        "Houndoom: Mt. Chimney Payne": {
             "level": 27,
             "evs": {
                 "hp": 0,
