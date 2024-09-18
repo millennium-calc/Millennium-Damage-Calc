@@ -119,6 +119,26 @@ var SETDEX_TT2019 = {
         },
     },
     "Piloswine": {
+        "Piloswine: Route 119 Ruggles": {
+            "level": 35,
+            "evs": {
+                "hp": 164,
+                "at": 128,
+                "df": 0,
+                "sa": 140,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Naughty",
+            "ability": "Oblivious",
+            "item": "Never-Melt Ice",
+            "moves": [
+                "Ice Fang",
+                "Magnitude",
+                "Ice Shard",
+                "Ancient Power"
+            ]
+        },
         "TankCheck: Explosive Frost Duckie": {
             "level": 59,
             "evs": {
@@ -617,6 +637,26 @@ var SETDEX_TT2019 = {
         },
     },
     "Lucario": {
+        "Lucario: Gym Leader LukeVonKarma": {
+            "level": 46,
+            "evs": {
+                "hp": 0,
+                "at": 68,
+                "df": 0,
+                "sa": 116,
+                "sd": 0,
+                "sp": 200
+            },
+            "nature": "Hasty",
+            "ability": "Inner Focus",
+            "item": "Life Orb",
+            "moves": [
+                "Aura Sphere",
+                "Flash Cannon",
+                "Dark Pulse",
+                "Extreme Speed"
+            ]
+        },
         "Lucario: Cartographer Refisio": {
             "level": 59,
             "evs": {
@@ -1824,28 +1864,6 @@ var SETDEX_TT2019 = {
             ]
         },
     },
-    "Piloswine": {
-        "Piloswine: Route 119 Ruggles": {
-            "level": 35,
-            "evs": {
-                "hp": 164,
-                "at": 128,
-                "df": 0,
-                "sa": 140,
-                "sd": 0,
-                "sp": 0
-            },
-            "nature": "Naughty",
-            "ability": "Oblivious",
-            "item": "Never-Melt Ice",
-            "moves": [
-                "Ice Fang",
-                "Magnitude",
-                "Ice Shard",
-                "Ancient Power"
-            ]
-        },
-    },
     "Ludicolo": {
         "Ludicolo: Route 119 Miror B": {
             "level": 35,
@@ -2810,28 +2828,6 @@ var SETDEX_TT2019 = {
                 "Flash Cannon",
                 "Ice Beam",
                 "Roost"
-            ]
-        },
-    },
-    "Lucario": {
-        "Lucario: Gym Leader LukeVonKarma": {
-            "level": 46,
-            "evs": {
-                "hp": 0,
-                "at": 68,
-                "df": 0,
-                "sa": 116,
-                "sd": 0,
-                "sp": 200
-            },
-            "nature": "Hasty",
-            "ability": "Inner Focus",
-            "item": "Life Orb",
-            "moves": [
-                "Aura Sphere",
-                "Flash Cannon",
-                "Dark Pulse",
-                "Extreme Speed"
             ]
         },
     },
