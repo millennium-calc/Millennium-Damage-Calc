@@ -1,4 +1,4 @@
-var SETDEX_TT2019 = { //todo: make sets for this shit
+var SETDEX_TT2019 = {
     //"": {
     //    "": {
     //        "level": 50,
@@ -166,6 +166,26 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
         },
     },
     "Mamoswine": {
+        "Mamoswine: Lilycove City Ruggles": {
+            "level": 44,
+            "evs": {
+                "hp": 96,
+                "at": 200,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Oblivious",
+            "item": "Never-Melt Ice",
+            "moves": [
+                "Earthquake",
+                "Ice Fang",
+                "Ice Shard",
+                "Rock Slide"
+            ]
+        },
         "Mamoswine: Explosive Frost Duckie": {
             "level": 60,
             "evs": {
@@ -276,6 +296,49 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
         },
     },
     "Camerupt": {
+        "Camerupt: YouTube Lair Payne": {
+            "level": 43,
+            "evs": {
+                "hp": 172,
+                "at": 0,
+                "df": 0,
+                "sa": 128,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Quiet",
+            "ability": "Solid Rock",
+            "item": "Passho Berry",
+            "moves": [
+                "Fire Blast",
+                "Earth Power",
+                "Ancient Power",
+                "Explosion"
+            ]
+        },
+        "Camerupt: Space Center Payne": {
+            "level": 47,
+            "evs": {
+                "hp": 176,
+                "at": 0,
+                "df": 0,
+                "sa": 212,
+                "sd": 0,
+                "sp": 0
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Quiet",
+            "ability": "Solid Rock",
+            "item": "Passho Berry",
+            "moves": [
+                "Heat Wave",
+                "Earth Power",
+                "Ancient Power",
+                "Solar Beam"
+            ]
+        },
         "Alto: Deck Devil Bakura": {
             "level": 59,
             "evs": {
@@ -579,6 +642,46 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
         },
     },
     "Blaziken": {
+        "Blaziken: YouTube Lair Maxie": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 156,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 92
+            },
+            "nature": "Adamant",
+            "ability": "Blaze",
+            "item": "Salac Berry",
+            "moves": [
+                "Blaze Kick",
+                "Reversal",
+                "Thunder Punch",
+                "Endure"
+            ]
+        },
+        "Blaziken: Space Center Maxie": {
+            "level": 47,
+            "evs": {
+                "hp": 0,
+                "at": 176,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 124
+            },
+            "nature": "Adamant",
+            "ability": "Blaze",
+            "item": "Salac Berry",
+            "moves": [
+                "Blaze Kick",
+                "Reversal",
+                "Thunder Punch",
+                "Endure"
+            ]
+        },
         "Blaziken: Cartographer Refisio": {
             "level": 60,
             "evs": {
@@ -667,6 +770,29 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
         },
     },
     "Starmie": {
+        "Starmie: Seafloor Cavern Archie": {
+            "level": 50,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 196,
+                "sd": 0,
+                "sp": 132
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Modest",
+            "ability": "Illuminate",
+            "item": "Lum Berry",
+            "moves": [
+                "Hydro Pump",
+                "Psychic",
+                "Thunder",
+                "Recover"
+            ]
+        },
         "Artemis: Mandala Kingpin Vyax Ultima": {
             "level": 61,
             "evs": {
@@ -691,7 +817,116 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
             ]
         },
     },
+    "Sharpedo": {
+        "Sharpedo: Seafloor Cavern Archie": {
+            "level": 52,
+            "evs": {
+                "hp": 0,
+                "at": 132,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 216
+            },
+            "nature": "Jolly",
+            "ability": "Rough Skin",
+            "item": "Liechi Berry",
+            "moves": [
+                "Waterfall",
+                "Crunch",
+                "Earthquake",
+                "Endure"
+            ]
+        },
+    },
+    "Nidoking": {
+        "Nidoking: YouTube Lair Payne": {
+            "level": 41,
+            "evs": {
+                "hp": 0,
+                "at": 156,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 116
+            },
+            "nature": "Adamant",
+            "ability": "Mold Breaker",
+            "item": "Muscle Band",
+            "moves": [
+                "Magnitude",
+                "Poison Jab",
+                "Sucker Punch",
+                "Body Slam"
+            ]
+        },
+        "Nidoking: Space Center Payne": {
+            "level": 46,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 196,
+                "sd": 0,
+                "sp": 128
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Modest",
+            "ability": "Mold Breaker",
+            "item": "Wise Glasses",
+            "moves": [
+                "Earth Power",
+                "Sludge Bomb",
+                "Flamethrower",
+                "Helping Hand"
+            ]
+        },
+    },
+    "Cradily": {
+        "Cradily: YouTube Lair Payne": {
+            "level": 42,
+            "evs": {
+                "hp": 152,
+                "at": 0,
+                "df": 112,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Impish",
+            "ability": "Storm Drain",
+            "item": "Leftovers",
+            "moves": [
+                "Seed Bomb",
+                "Rock Slide",
+                "Sludge Bomb",
+                "Leech Seed"
+            ]
+        },
+    },
     "Infernape": {
+        "Infernape: YouTube Lair Payne": {
+            "level": 41,
+            "evs": {
+                "hp": 0,
+                "at": 148,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 116
+            },
+            "nature": "Adamant",
+            "ability": "Blaze",
+            "item": "Expert Belt",
+            "moves": [
+                "Blaze Kick",
+                "Brick Break",
+                "Punishment",
+                "Taunt"
+            ]
+        },
         "Apollo: Mandala Kingpin Vyax Ultima": {
             "level": 61,
             "evs": {
@@ -859,6 +1094,26 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Morning Sun"
             ]
         },
+        "Arcanine: YouTube Lair Maxie": {
+            "level": 44,
+            "evs": {
+                "hp": 132,
+                "at": 172,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Intimidate",
+            "item": "Sitrus Berry",
+            "moves": [
+                "Flare Blitz",
+                "Crunch",
+                "Extreme Speed",
+                "Morning Sun"
+            ]
+        },
     },
     "Numel": {
         "Numel: Mt. Chimney Payne": {
@@ -882,8 +1137,156 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
             ]
         },
     },
+    "Bagon": {
+        "Bagon: Mauville City Trish": {
+            "level": 24,
+            "evs": {
+                "hp": 0,
+                "at": 112,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 112
+            },
+            "nature": "Jolly",
+            "ability": "Rock Head",
+            "item": "",
+            "moves": [
+                "Rock Smash",
+                "Rock Tomb",
+                "Bite",
+                "Ember"
+            ]
+        },
+    },
+    "Larvitar": {
+        "Larvitar: Mauville City Trish": {
+            "level": 24,
+            "evs": {
+                "hp": 96,
+                "at": 200,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Guts",
+            "item": "Flame Orb",
+            "moves": [
+                "Rock Tomb",
+                "Magnitude",
+                "Protect",
+                ""
+            ]
+        },
+    },
+    "Pupitar": {
+        "Pupitar: Weather Institute Skrelpling": {
+            "level": 34,
+            "evs": {
+                "hp": 172,
+                "at": 212,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Shed Skin",
+            "item": "Focus Sash",
+            "moves": [
+                "Rock Slide",
+                "Magnitude",
+                "Payback",
+                "Stealth Rock"
+            ]
+        },
+        "Pupitar: Twitch Lair Skrelpling": {
+            "level": 43,
+            "evs": {
+                "hp": 248,
+                "at": 116,
+                "df": 0,
+                "sa": 0,
+                "sd": 136,
+                "sp": 0
+            },
+            "nature": "Impish",
+            "ability": "Shed Skin",
+            "item": "Focus Sash",
+            "moves": [
+                "Rock Slide",
+                "Earthquake",
+                "Toxic",
+                "Stealth Rock"
+            ]
+        },
+    },
+    "Gabite": {
+        "Gabite: Mauville City Trish": {
+            "level": 24,
+            "evs": {
+                "hp": 0,
+                "at": 116,
+                "df": 0,
+                "sa": 144,
+                "sd": 0,
+                "sp": 140
+            },
+            "nature": "Adamant",
+            "ability": "Rough Skin",
+            "item": "Muscle Band",
+            "moves": [
+                "Dragon Breath",
+                "Magnitude",
+                "Slash",
+                ""
+            ]
+        },
+        "Gabite: Weather Institute Skrelpling": {
+            "level": 35,
+            "evs": {
+                "hp": 0,
+                "at": 188,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 136
+            },
+            "nature": "Jolly",
+            "ability": "Rough Skin",
+            "item": "Muscle Band",
+            "moves": [
+                "Dragon Claw",
+                "Magnitude",
+                "Slash",
+                "Fury Cutter"
+            ]
+        },
+        "Gabite: Twitch Lair Skrelpling": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 220,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 104
+            },
+            "nature": "Adamant",
+            "ability": "Rough Skin",
+            "item": "Muscle Band",
+            "moves": [
+                "Dragon Claw",
+                "Earthquake",
+                "Shadow Claw",
+                "Fury Cutter"
+            ]
+        },
+    },
     "Rapidash": {
-        "Rapidash: Mt. Chimney Payne": {
+        "Rapidash: Mt. Chimney Maxie": {
             "level": 30,
             "evs": {
                 "hp": 0,
@@ -901,6 +1304,46 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Jump Kick",
                 "Quick Attack",
                 "Will-O-Wisp"
+            ]
+        },
+        "Rapidash: YouTube Lair Maxie": {
+            "level": 42,
+            "evs": {
+                "hp": 0,
+                "at": 116,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 152
+            },
+            "nature": "Jolly",
+            "ability": "Limber",
+            "item": "Heat Rock",
+            "moves": [
+                "Blaze Kick",
+                "Jump Kick",
+                "Drill Peck",
+                "Sunny Day"
+            ]
+        },
+        "Rapidash: Space Center Maxie": {
+            "level": 49,
+            "evs": {
+                "hp": 0,
+                "at": 188,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 172
+            },
+            "nature": "Jolly",
+            "ability": "Limber",
+            "item": "Wide Lens",
+            "moves": [
+                "Blaze Kick",
+                "High Jump Kick",
+                "Drill Peck",
+                "Megahorn"
             ]
         },
     },
@@ -927,6 +1370,26 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
         },
     },
     "Charmeleon": {
+        "Charmeleon: Route 110 Ruggles": {
+            "level": 24,
+            "evs": {
+                "hp": 0,
+                "at": 200,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 136
+            },
+            "nature": "Jolly",
+            "ability": "Blaze",
+            "item": "",
+            "moves": [
+                "Fire Fang",
+                "Slash",
+                "Metal Claw",
+                ""
+            ]
+        },
         "Charmeleon: Mt. Chimney Payne": {
             "level": 28,
             "evs": {
@@ -945,6 +1408,486 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Solar Beam",
                 "Bite",
                 "Dragon Rage"
+            ]
+        },
+    },
+    "Charizard": {
+        "Charizard: Lilycove City Ruggles": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 152,
+                "sd": 0,
+                "sp": 168
+            },
+            "nature": "Naive",
+            "ability": "Blaze",
+            "item": "Salac Berry",
+            "moves": [
+                "Flamethrower",
+                "Air Slash",
+                "Dragon Pulse",
+                "Endure"
+            ]
+        },
+    },
+    "Jumpluff": {
+        "Jumpluff: Route 119 Miror B": {
+            "level": 34,
+            "evs": {
+                "hp": 244,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 244
+            },
+            "nature": "Jolly",
+            "ability": "Chlorophyll",
+            "item": "Big Root",
+            "moves": [
+                "Aerial Ace",
+                "Leech Seed",
+                "Sleep Powder",
+                "Substitute"
+            ]
+        },
+    },
+    "Gardevoir": {
+        "Gardevoir: Route 119 Miror B": {
+            "level": 34,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 160,
+                "sd": 192,
+                "sp": 0
+            },
+            "nature": "Modest",
+            "ability": "Synchronize",
+            "item": "Expert Belt",
+            "moves": [
+                "Psybeam",
+                "Shadow Ball",
+                "Shock Wave",
+                "Will-O-Wisp"
+            ]
+        },
+    },
+    "Armaldo": {
+        "Armaldo: Route 119 Miror B": {
+            "level": 34,
+            "evs": {
+                "hp": 112,
+                "at": 172,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Battle Armor",
+            "item": "Leftovers",
+            "moves": [
+                "X-Scissor",
+                "Rock Tomb",
+                "Brick Break",
+                "Aerial Ace"
+            ]
+        },
+    },
+    "Tyranitar": {
+        "Tyranitar: Seafloor Cavern Skrelpling": {
+            "level": 50,
+            "evs": {
+                "hp": 204,
+                "at": 196,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Sand Stream",
+            "item": "Chople Berry",
+            "moves": [
+                "Stone Edge",
+                "Pursuit",
+                "Earthquake",
+                "Stealth Rock"
+            ]
+        },
+    },
+    "Garchomp": {
+        "Garchomp: Seafloor Cavern Skrelpling": {
+            "level": 48,
+            "evs": {
+                "hp": 0,
+                "at": 220,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 152
+            },
+            "nature": "Jolly",
+            "ability": "Sand Veil",
+            "item": "Bright Powder",
+            "moves": [
+                "Earthquake",
+                "Rock Slide",
+                "Fire Fang",
+                "Double Team"
+            ]
+        },
+    },
+    "Swinub": {
+        "Swinub: Rustboro City Ruggles": {
+            "level": 18,
+            "evs": {
+                "hp": 0,
+                "at": 124,
+                "df": 0,
+                "sa": 236,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Naughty",
+            "ability": "Oblivious",
+            "item": "Oran Berry",
+            "moves": [
+                "Sand Tomb",
+                "Powder Snow",
+                "Endure",
+                ""
+            ]
+        },
+        "Swinub: Route 110 Ruggles": {
+            "level": 25,
+            "evs": {
+                "hp": 212,
+                "at": 244,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Naughty",
+            "ability": "Oblivious",
+            "item": "Custap Berry",
+            "moves": [
+                "Magnitude",
+                "Ice Fang",
+                "Endure",
+                ""
+            ]
+        },
+    },
+    "Aron": {
+        "Aron: Rustboro City Ruggles": {
+            "level": 17,
+            "evs": {
+                "hp": 236,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 240,
+                "sp": 0
+            },
+            "nature": "Careful",
+            "ability": "Sturdy",
+            "item": "",
+            "moves": [
+                "Metal Claw",
+                "Rock Throw",
+                "Headbutt",
+                ""
+            ]
+        },
+        "Aron: Route 110 Ruggles": {
+            "level": 24,
+            "evs": {
+                "hp": 112,
+                "at": 152,
+                "df": 0,
+                "sa": 0,
+                "sd": 240,
+                "sp": 0
+            },
+            "nature": "Careful",
+            "ability": "Sturdy",
+            "item": "",
+            "moves": [
+                "Metal Claw",
+                "Rock Throw",
+                "Headbutt",
+                "Mud-Slap"
+            ]
+        },
+    },
+    "Machop": {
+        "Machop: Rustboro City Ruggles": {
+            "level": 17,
+            "evs": {
+                "hp": 236,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Guts",
+            "item": "",
+            "moves": [
+                "Karate Chop",
+                "Low Kick",
+                "Focus Energy",
+                "Leer"
+            ]
+        },
+        "Machop: Route 110 Ruggles": {
+            "level": 24,
+            "evs": {
+                "hp": 252,
+                "at": 156,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Guts",
+            "item": "",
+            "moves": [
+                "Karate Chop",
+                "Low Kick",
+                "Needle Arm",
+                "Focus Energy"
+            ]
+        },
+    },
+    "Machoke": {
+        "Machoke: Route 119 Ruggles": {
+            "level": 34,
+            "evs": {
+                "hp": 192,
+                "at": 112,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Guts",
+            "item": "Flame Orb",
+            "moves": [
+                "Revenge",
+                "Shadow Punch",
+                "Needle Arm",
+                "Bullet Punch"
+            ]
+        },
+    },
+    "Machamp": {
+        "Machamp: Lilycove City Ruggles": {
+            "level": 42,
+            "evs": {
+                "hp": 204,
+                "at": 76,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Guts",
+            "item": "Flame Orb",
+            "moves": [
+                "Cross Chop",
+                "Payback",
+                "Bullet Punch",
+                "Protect"
+            ]
+        },
+    },
+    "Aggron": {
+        "Aggron: Lilycove City Ruggles": {
+            "level": 42,
+            "evs": {
+                "hp": 0,
+                "at": 132,
+                "df": 0,
+                "sa": 0,
+                "sd": 244,
+                "sp": 0
+            },
+            "nature": "Careful",
+            "ability": "Sturdy",
+            "item": "White Herb",
+            "moves": [
+                "Iron Head",
+                "Stone Edge",
+                "Superpower",
+                "Aqua Tail"
+            ]
+        },
+    },
+    "Golem": {
+        "Golem: YouTube Lair Maxie": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 116,
+                "df": 204,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "ivs": {
+                "sp": 0
+            },
+            "nature": "Brave",
+            "ability": "Sturdy",
+            "item": "Custap Berry",
+            "moves": [
+                "Earthquake",
+                "Stone Edge",
+                "Gyro Ball",
+                "Explosion"
+            ]
+        },
+    },
+    "Lairon": {
+        "Lairon: Route 119 Ruggles": {
+            "level": 34,
+            "evs": {
+                "hp": 0,
+                "at": 148,
+                "df": 0,
+                "sa": 0,
+                "sd": 244,
+                "sp": 0
+            },
+            "nature": "Sassy",
+            "ability": "Sturdy",
+            "item": "Leftovers",
+            "moves": [
+                "Iron Head",
+                "Rock Slide",
+                "Headbutt",
+                "Metal Burst"
+            ]
+        },
+    },
+    "Aerodactyl": {
+        "Aerodactyl: Route 119 Ruggles": {
+            "level": 35,
+            "evs": {
+                "hp": 0,
+                "at": 124,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 188
+            },
+            "nature": "Jolly",
+            "ability": "Rivalry",
+            "item": "White Herb",
+            "moves": [
+                "Rock Tomb",
+                "Wing Attack",
+                "Crunch",
+                "Secret Power"
+            ]
+        },
+        "Aerodactyl: Lilycove City Ruggles": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 88,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 188
+            },
+            "nature": "Jolly",
+            "ability": "Rivalry",
+            "item": "Sharp Beak",
+            "moves": [
+                "Rock Tomb",
+                "Wing Attack",
+                "Thunder Fang",
+                "Earthquake"
+            ]
+        },
+    },
+    "Piloswine": {
+        "Piloswine: Route 119 Ruggles": {
+            "level": 35,
+            "evs": {
+                "hp": 164,
+                "at": 128,
+                "df": 0,
+                "sa": 140,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Naughty",
+            "ability": "Oblivious",
+            "item": "Never-Melt Ice",
+            "moves": [
+                "Ice Fang",
+                "Magnitude",
+                "Ice Shard",
+                "Ancient Power"
+            ]
+        },
+    },
+    "Ludicolo": {
+        "Ludicolo: Route 119 Miror B": {
+            "level": 35,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 196,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Modest",
+            "ability": "Swift Swim",
+            "item": "Petaya Berry",
+            "moves": [
+                "Water Pulse",
+                "Magical Leaf",
+                "Icy Wind",
+                "Fake Out"
+            ]
+        },
+        "Ludicolo: Seafloor Cavern Archie": {
+            "level": 51,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 216,
+                "sd": 0,
+                "sp": 72
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Modest",
+            "ability": "Swift Swim",
+            "item": "Life Orb",
+            "moves": [
+                "Surf",
+                "Energy Ball",
+                "Ice Beam",
+                "Fake Out"
             ]
         },
     },
@@ -989,6 +1932,48 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Acid",
                 "Leech Seed",
                 "Synthesis"
+            ]
+        },
+    },
+    "Victreebel": {
+        "Victreebel: Mt. Chimney Maxie": {
+            "level": 42,
+            "evs": {
+                "hp": 0,
+                "at": 144,
+                "df": 0,
+                "sa": 76,
+                "sd": 0,
+                "sp": 108
+            },
+            "nature": "Naughty",
+            "ability": "Chlorophyll",
+            "item": "Life Orb",
+            "moves": [
+                "Leaf Blade",
+                "Weather Ball",
+                "Knock Off",
+                "Swords Dance"
+            ]
+        },
+        "Victreebel: Mt. Chimney Maxie": {
+            "level": 46,
+            "evs": {
+                "hp": 0,
+                "at": 160,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 92
+            },
+            "nature": "Naive",
+            "ability": "Chlorophyll",
+            "item": "Focus Sash",
+            "moves": [
+                "Leaf Blade",
+                "Cross Poison",
+                "Knock Off",
+                "Swords Dance"
             ]
         },
     },
@@ -1055,6 +2040,106 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Twister",
                 "Vise Grip",
                 ""
+            ]
+        },
+        "Gyarados: Weather Institute Skrelping": {
+            "level": 35,
+            "evs": {
+                "hp": 148,
+                "at": 124,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Intimidate",
+            "item": "Lum Berry",
+            "moves": [
+                "Waterfall",
+                "Bite",
+                "Strength",
+                "Attract"
+            ]
+        },
+        "Gyarados: Route 119 Ruggles": {
+            "level": 34,
+            "evs": {
+                "hp": 0,
+                "at": 56,
+                "df": 0,
+                "sa": 116,
+                "sd": 0,
+                "sp": 196
+            },
+            "nature": "Lonely",
+            "ability": "Intimidate",
+            "item": "Mystic Water",
+            "moves": [
+                "Surf",
+                "Bite",
+                "Ice Fang",
+                ""
+            ]
+        },
+        "Gyarados: Lilycove City Ruggles": {
+            "level": 42,
+            "evs": {
+                "hp": 0,
+                "at": 108,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 200
+            },
+            "nature": "Lonely",
+            "ability": "Intimidate",
+            "item": "Muscle Band",
+            "moves": [
+                "Waterfall",
+                "Power Whip",
+                "Ice Fang",
+                "Thunder Wave"
+            ]
+        },
+        "Gyarados: Twitch Lair Skrelping": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 200,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 140
+            },
+            "nature": "Jolly",
+            "ability": "Intimidate",
+            "item": "Mystic Water",
+            "moves": [
+                "Waterfall",
+                "Crunch",
+                "Body Slam",
+                "Attract"
+            ]
+        },
+        "Gyarados: Seafloor Cavern Skrelping": {
+            "level": 50,
+            "evs": {
+                "hp": 204,
+                "at": 164,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Intimidate",
+            "item": "Leftovers",
+            "moves": [
+                "Waterfall",
+                "Earthquake",
+                "Thunder Wave",
+                "Attract"
             ]
         },
     },
@@ -1497,6 +2582,29 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
         },
     },
     "Gengar": {
+        "Gengar: Weather Institute Skrelping": {
+            "level": 34,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 132,
+                "sd": 0,
+                "sp": 116
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Timid",
+            "ability": "Levitate",
+            "item": "Black Sludge",
+            "moves": [
+                "Shadow Ball",
+                "Signal Beam",
+                "Destiny Bond",
+                "Hypnosis"
+            ]
+        },
         "Gengar: Gym Leader dire": {
             "level": 39,
             "evs": {
@@ -1518,6 +2626,143 @@ var SETDEX_TT2019 = { //todo: make sets for this shit
                 "Sludge Bomb",
                 "Thunderbolt",
                 "Toxic"
+            ]
+        },
+        "Gengar: Twitch Lair Skrelping": {
+            "level": 43,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 148,
+                "sd": 0,
+                "sp": 124
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Timid",
+            "ability": "Levitate",
+            "item": "Black Sludge",
+            "moves": [
+                "Shadow Ball",
+                "Sludge Bomb",
+                "Destiny Bond",
+                "Hypnosis"
+            ]
+        },
+        "Gengar: Seafloor Cavern Skrelping": {
+            "level": 49,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 176,
+                "sd": 0,
+                "sp": 108
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Timid",
+            "ability": "Levitate",
+            "item": "Black Sludge",
+            "moves": [
+                "Shadow Ball",
+                "Focus Blast",
+                "Destiny Bond",
+                "Hypnosis"
+            ]
+        },
+    },
+    "Torkoal": {
+        "Torkoal: Space Center Payne": {
+            "level": 45,
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 176,
+                "sd": 208,
+                "sp": 0
+            },
+            "ivs": {
+                "at": 0
+            },
+            "nature": "Modest",
+            "ability": "Drought",
+            "item": "Charcoal",
+            "moves": [
+                "Eruption",
+                "Lava Plume",
+                "Earth Power",
+                "Will-O-Wisp"
+            ]
+        },
+    },
+    "Relicanth": {
+        "Relicanth: Seafloor Cavern Archie": {
+            "level": 51,
+            "evs": {
+                "hp": 0,
+                "at": 208,
+                "df": 0,
+                "sa": 0,
+                "sd": 144,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "ability": "Drizzle",
+            "item": "Sitrus Berry",
+            "moves": [
+                "Aqua Tail",
+                "Head Smash",
+                "Earthquake",
+                "Yawn"
+            ]
+        },
+    },
+    "Crobat": {
+        "Crobat: Seafloor Cavern Archie": {
+            "level": 50,
+            "evs": {
+                "hp": 100,
+                "at": 148,
+                "df": 0,
+                "sa": 164,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Lonely",
+            "ability": "Inner Focus",
+            "item": "Black Sludge",
+            "moves": [
+                "Aerial Ace",
+                "U-turn",
+                "Giga Drain",
+                "Haze"
+            ]
+        },
+    },
+    "Jirachi": {
+        "Jirachi: Seafloor Cavern Skrelping": {
+            "level": 49,
+            "evs": {
+                "hp": 0,
+                "at": 180,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 156
+            },
+            "nature": "Jolly",
+            "ability": "Serene Grace",
+            "item": "Lum Berry",
+            "moves": [
+                "Iron Head",
+                "Thunder Punch",
+                "Fire Punch",
+                "Thunder Wave"
             ]
         },
     },
