@@ -1954,7 +1954,7 @@ var SETDEX_TT2019 = {
         },
     },
     "Victreebel": {
-        "Victreebel: Mt. Chimney Maxie": {
+        "Victreebel: YouTube Lair Maxie": {
             "level": 42,
             "evs": {
                 "hp": 0,
@@ -1974,7 +1974,7 @@ var SETDEX_TT2019 = {
                 "Swords Dance"
             ]
         },
-        "Victreebel: Mt. Chimney Maxie": {
+        "Victreebel: Space Center Maxie": {
             "level": 46,
             "evs": {
                 "hp": 0,
