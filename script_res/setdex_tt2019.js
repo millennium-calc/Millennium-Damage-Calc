@@ -2136,7 +2136,7 @@ var SETDEX_TT2019 = {
             "moves": [
                 "Waterfall",
                 "Crunch",
-                "Body Slam",
+                "Ice Fang",
                 "Attract"
             ]
         },
