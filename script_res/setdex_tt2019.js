@@ -1786,9 +1786,6 @@ var SETDEX_TT2019 = {
                 "sd": 0,
                 "sp": 0
             },
-            "ivs": {
-                "sp": 0
-            },
             "nature": "Brave",
             "ability": "Sturdy",
             "item": "Custap Berry",
