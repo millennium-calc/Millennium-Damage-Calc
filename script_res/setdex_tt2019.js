@@ -2843,7 +2843,7 @@ var SETDEX_TT2019 = {
             "ability": "Clear Body",
             "item": "Shuca Berry",
             "moves": [
-                "iron Head",
+                "Iron Head",
                 "Zen Headbutt",
                 "Earthquake",
                 "Bullet Punch"
