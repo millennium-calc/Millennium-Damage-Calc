@@ -1902,7 +1902,7 @@ var SETDEX_TT2019 = {
                 "Surf",
                 "Energy Ball",
                 "Ice Beam",
-                "Fake Out"
+                "Substitute"
             ]
         },
     },
