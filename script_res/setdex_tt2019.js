@@ -2876,12 +2876,12 @@ var SETDEX_TT2019 = {
         "Bellossom: Gym Leader Eva Lees": {
             "level": 52,
             "evs": {
-                "hp": 184,
-                "at": 192,
+                "hp": 0,
+                "at": 184,
                 "df": 0,
                 "sa": 0,
                 "sd": 0,
-                "sp": 0
+                "sp": 192
             },
             "nature": "Jolly",
             "ability": "Chlorophyll",
