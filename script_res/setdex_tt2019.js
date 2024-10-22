@@ -209,8 +209,8 @@ var SETDEX_TT2019 = {
         "Mamoswine: Explosive Frost Duckie": {
             "level": 60,
             "evs": {
-                "hp": 0,
-                "at": 252,
+                "hp": 252,
+                "at": 0,
                 "df": 0,
                 "sa": 0,
                 "sd": 4,
