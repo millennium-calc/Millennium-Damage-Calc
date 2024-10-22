@@ -6533,9 +6533,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
             "hp": 60,
             "at": 60,
             "df": 60,
-            "sa": 115,
+            "sa": 105,
             "sd": 105,
-            "sp": 105
+            "sp": 115
         },
         "w": 4.4,
         "ab": "Levitate"
