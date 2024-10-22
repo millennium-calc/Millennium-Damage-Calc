@@ -298,7 +298,7 @@ var SETDEX_TT2019 = {
             "level": 59,
             "evs": {
                 "hp": 240,
-                "at": 76,
+                "at": 72,
                 "df": 196,
                 "sa": 0,
                 "sd": 0,
